@@ -1,0 +1,11 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.DS_Store
+data/pst_reader.db
+backend/uploads/*.jpg
+backend/uploads/*.corrected.jpg
+*.corrected.jpg
+.env
+.env.local

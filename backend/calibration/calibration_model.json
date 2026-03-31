@@ -1,0 +1,3959 @@
+{
+  "slope": 0.9341549968327353,
+  "intercept": 0.21570664618054636,
+  "r_squared": 0.9880411208506934,
+  "n_samples": 101,
+  "sample_delta_a_mean": -22.931881188118815,
+  "sample_delta_a_std": 8.988884082865384,
+  "report_delta_a_mean": -21.206224752475247,
+  "report_delta_a_std": 8.44767527342457,
+  "sample_delta_a_range": [
+    -51.37,
+    0.58
+  ],
+  "report_delta_a_range": [
+    -47.3523,
+    1.0153
+  ],
+  "pairs": [
+    {
+      "sample_file": "IMG_8006.JPG",
+      "report_file": "IMG_8007.JPG",
+      "sample_before_rgb": [
+        157,
+        126,
+        150
+      ],
+      "sample_after_rgb": [
+        161,
+        168,
+        166
+      ],
+      "sample_before_lab": [
+        56.38,
+        16.18,
+        -8.35
+      ],
+      "sample_after_lab": [
+        68.27,
+        -2.86,
+        0.17
+      ],
+      "sample_delta_a": -19.04,
+      "sample_delta_E": 24.0101,
+      "sample_delta_L": 11.89,
+      "report_before_lab": [
+        48.700849490932455,
+        14.395051617856758,
+        -10.732712135046253
+      ],
+      "report_after_lab": [
+        59.98814477671961,
+        -2.212392191041468,
+        -3.7598851204662553
+      ],
+      "report_delta_a": -16.6074,
+      "report_delta_E": 21.2563
+    },
+    {
+      "sample_file": "IMG_8009.JPG",
+      "report_file": "IMG_8011.JPG",
+      "sample_before_rgb": [
+        157,
+        126,
+        150
+      ],
+      "sample_after_rgb": [
+        161,
+        168,
+        166
+      ],
+      "sample_before_lab": [
+        56.38,
+        16.18,
+        -8.35
+      ],
+      "sample_after_lab": [
+        68.27,
+        -2.86,
+        0.17
+      ],
+      "sample_delta_a": -19.04,
+      "sample_delta_E": 24.0101,
+      "sample_delta_L": 11.89,
+      "report_before_lab": [
+        46.70815050996931,
+        14.50400399137025,
+        -10.80113119278634
+      ],
+      "report_after_lab": [
+        58.28758906181193,
+        -3.2056204345453088,
+        -2.310462111935885
+      ],
+      "report_delta_a": -17.7096,
+      "report_delta_E": 22.7992
+    },
+    {
+      "sample_file": "IMG_8012.JPG",
+      "report_file": "IMG_8013.JPG",
+      "sample_before_rgb": [
+        157,
+        123,
+        147
+      ],
+      "sample_after_rgb": [
+        153,
+        158,
+        158
+      ],
+      "sample_before_lab": [
+        55.52,
+        17.33,
+        -7.89
+      ],
+      "sample_after_lab": [
+        64.72,
+        -1.79,
+        -0.62
+      ],
+      "sample_delta_a": -19.12,
+      "sample_delta_E": 22.4292,
+      "sample_delta_L": 9.2,
+      "report_before_lab": [
+        48.700849490932455,
+        14.395051617856758,
+        -10.732712135046253
+      ],
+      "report_after_lab": [
+        60.20847627993541,
+        -3.1878589864811624,
+        -2.2973139414247834
+      ],
+      "report_delta_a": -17.5829,
+      "report_delta_E": 22.6438
+    },
+    {
+      "sample_file": "IMG_8015.JPG",
+      "report_file": "IMG_8016.JPG",
+      "sample_before_rgb": [
+        165,
+        125,
+        150
+      ],
+      "sample_after_rgb": [
+        158,
+        163,
+        162
+      ],
+      "sample_before_lab": [
+        56.95,
+        19.66,
+        -7.41
+      ],
+      "sample_after_lab": [
+        66.57,
+        -1.97,
+        -0.1
+      ],
+      "sample_delta_a": -21.63,
+      "sample_delta_E": 24.7757,
+      "sample_delta_L": 9.62,
+      "report_before_lab": [
+        48.700849490932455,
+        14.395051617856758,
+        -10.732712135046253
+      ],
+      "report_after_lab": [
+        59.98814477671961,
+        -2.212392191041468,
+        -3.7598851204662553
+      ],
+      "report_delta_a": -16.6074,
+      "report_delta_E": 21.2563
+    },
+    {
+      "sample_file": "IMG_8019.JPG",
+      "report_file": "IMG_8020.JPG",
+      "sample_before_rgb": [
+        163,
+        124,
+        150
+      ],
+      "sample_after_rgb": [
+        157,
+        165,
+        163
+      ],
+      "sample_before_lab": [
+        56.49,
+        19.5,
+        -8.12
+      ],
+      "sample_after_lab": [
+        67.07,
+        -3.22,
+        0.05
+      ],
+      "sample_delta_a": -22.72,
+      "sample_delta_E": 26.3606,
+      "sample_delta_L": 10.58,
+      "report_before_lab": [
+        50.125170754023884,
+        18.25797373128346,
+        -10.857945266153557
+      ],
+      "report_after_lab": [
+        60.13301053121552,
+        -3.5401152477863573,
+        -2.4169435254008276
+      ],
+      "report_delta_a": -21.7981,
+      "report_delta_E": 25.4276
+    },
+    {
+      "sample_file": "IMG_8023.JPG",
+      "report_file": "IMG_8024.JPG",
+      "sample_before_rgb": [
+        174,
+        129,
+        161
+      ],
+      "sample_after_rgb": [
+        170,
+        176,
+        174
+      ],
+      "sample_before_lab": [
+        59.23,
+        22.63,
+        -10.24
+      ],
+      "sample_after_lab": [
+        71.32,
+        -2.49,
+        0.29
+      ],
+      "sample_delta_a": -25.12,
+      "sample_delta_E": 29.8004,
+      "sample_delta_L": 12.09,
+      "report_before_lab": [
+        51.26036909012156,
+        19.71777612769493,
+        -12.645043346293171
+      ],
+      "report_after_lab": [
+        63.63619327806097,
+        -3.1572700155653166,
+        -2.2747163133240322
+      ],
+      "report_delta_a": -22.875,
+      "report_delta_E": 27.9995
+    },
+    {
+      "sample_file": "IMG_8027.JPG",
+      "report_file": "IMG_8028.JPG",
+      "sample_before_rgb": [
+        163,
+        119,
+        150
+      ],
+      "sample_after_rgb": [
+        163,
+        168,
+        165
+      ],
+      "sample_before_lab": [
+        55.26,
+        22.36,
+        -9.96
+      ],
+      "sample_after_lab": [
+        68.39,
+        -2.35,
+        0.93
+      ],
+      "sample_delta_a": -24.71,
+      "sample_delta_E": 30.0262,
+      "sample_delta_L": 13.13,
+      "report_before_lab": [
+        47.71483252058364,
+        19.963529103248945,
+        -12.764118294873672
+      ],
+      "report_after_lab": [
+        61.35523334673954,
+        -3.177471064615134,
+        -2.2896334974063626
+      ],
+      "report_delta_a": -23.141,
+      "report_delta_E": 28.8319
+    },
+    {
+      "sample_file": "IMG_8034.JPG",
+      "report_file": "IMG_8035.JPG",
+      "sample_before_rgb": [
+        164,
+        127,
+        169
+      ],
+      "sample_after_rgb": [
+        161,
+        161,
+        152
+      ],
+      "sample_before_lab": [
+        57.98,
+        21.79,
+        -16.82
+      ],
+      "sample_after_lab": [
+        66.01,
+        -1.67,
+        4.68
+      ],
+      "sample_delta_a": -23.46,
+      "sample_delta_E": 32.8192,
+      "sample_delta_L": 8.03,
+      "report_before_lab": [
+        50.46772661359313,
+        20.648517846474924,
+        -19.200276247053317
+      ],
+      "report_after_lab": [
+        57.618131042502156,
+        -1.3236832126061193,
+        1.3430225110615979
+      ],
+      "report_delta_a": -21.9722,
+      "report_delta_E": 30.9182
+    },
+    {
+      "sample_file": "IMG_8036.JPG",
+      "report_file": "IMG_8037.JPG",
+      "sample_before_rgb": [
+        169,
+        129,
+        172
+      ],
+      "sample_after_rgb": [
+        164,
+        164,
+        156
+      ],
+      "sample_before_lab": [
+        59.08,
+        22.97,
+        -16.82
+      ],
+      "sample_after_lab": [
+        67.16,
+        -1.49,
+        4.15
+      ],
+      "sample_delta_a": -24.46,
+      "sample_delta_E": 33.2162,
+      "sample_delta_L": 8.08,
+      "report_before_lab": [
+        51.1040180577579,
+        21.517501509155103,
+        -19.373041810259405
+      ],
+      "report_after_lab": [
+        58.77526022718334,
+        -1.3185644290272247,
+        1.3377516312981896
+      ],
+      "report_delta_a": -22.8361,
+      "report_delta_E": 31.769
+    },
+    {
+      "sample_file": "IMG_8040.JPG",
+      "report_file": "IMG_8041.JPG",
+      "sample_before_rgb": [
+        164,
+        125,
+        169
+      ],
+      "sample_after_rgb": [
+        158,
+        159,
+        150
+      ],
+      "sample_before_lab": [
+        57.49,
+        22.93,
+        -17.56
+      ],
+      "sample_after_lab": [
+        65.17,
+        -2.04,
+        4.57
+      ],
+      "sample_delta_a": -24.97,
+      "sample_delta_E": 34.2377,
+      "sample_delta_L": 7.68,
+      "report_before_lab": [
+        49.613958563565234,
+        22.070532924860498,
+        -20.517898793274213
+      ],
+      "report_after_lab": [
+        57.23141251158597,
+        -1.325416222300535,
+        1.3448074340064675
+      ],
+      "report_delta_a": -23.3959,
+      "report_delta_E": 32.9146
+    },
+    {
+      "sample_file": "IMG_8048.JPG",
+      "report_file": "IMG_8049.JPG",
+      "sample_before_rgb": [
+        133,
+        108,
+        136
+      ],
+      "sample_after_rgb": [
+        167,
+        170,
+        165
+      ],
+      "sample_before_lab": [
+        48.87,
+        15.17,
+        -11.65
+      ],
+      "sample_after_lab": [
+        69.24,
+        -2.01,
+        2.2
+      ],
+      "sample_delta_a": -17.18,
+      "sample_delta_E": 30.0318,
+      "sample_delta_L": 20.37,
+      "report_before_lab": [
+        41.90565636041631,
+        13.802977124554221,
+        -13.998861589273027
+      ],
+      "report_after_lab": [
+        61.00481798669651,
+        -1.2071922219544229,
+        -2.210387459059948
+      ],
+      "report_delta_a": -15.0102,
+      "report_delta_E": 27.0009
+    },
+    {
+      "sample_file": "IMG_8050.JPG",
+      "report_file": "IMG_8051.JPG",
+      "sample_before_rgb": [
+        137,
+        111,
+        140
+      ],
+      "sample_after_rgb": [
+        171,
+        174,
+        168
+      ],
+      "sample_before_lab": [
+        50.19,
+        15.67,
+        -11.99
+      ],
+      "sample_after_lab": [
+        70.7,
+        -2.18,
+        2.7
+      ],
+      "sample_delta_a": -17.85,
+      "sample_delta_E": 30.9043,
+      "sample_delta_L": 20.51,
+      "report_before_lab": [
+        43.12662295463915,
+        13.730680685269892,
+        -13.936648630849447
+      ],
+      "report_after_lab": [
+        63.12741422305233,
+        -2.15396327040579,
+        -0.7500221543631724
+      ],
+      "report_delta_a": -15.8846,
+      "report_delta_E": 28.7444
+    },
+    {
+      "sample_file": "IMG_8052.JPG",
+      "report_file": "IMG_8053.JPG",
+      "sample_before_rgb": [
+        138,
+        112,
+        140
+      ],
+      "sample_after_rgb": [
+        173,
+        175,
+        169
+      ],
+      "sample_before_lab": [
+        50.55,
+        15.45,
+        -11.44
+      ],
+      "sample_after_lab": [
+        71.15,
+        -1.82,
+        2.82
+      ],
+      "sample_delta_a": -17.27,
+      "sample_delta_E": 30.4296,
+      "sample_delta_L": 20.6,
+      "report_before_lab": [
+        43.36575040731373,
+        14.674175261202793,
+        -14.160069991237778
+      ],
+      "report_after_lab": [
+        63.12741422305233,
+        -2.15396327040579,
+        -0.7500221543631724
+      ],
+      "report_delta_a": -16.8281,
+      "report_delta_E": 29.2154
+    },
+    {
+      "sample_file": "IMG_8054.JPG",
+      "report_file": "IMG_8055.JPG",
+      "sample_before_rgb": [
+        139,
+        113,
+        143
+      ],
+      "sample_after_rgb": [
+        173,
+        176,
+        170
+      ],
+      "sample_before_lab": [
+        51.02,
+        15.83,
+        -12.49
+      ],
+      "sample_after_lab": [
+        71.44,
+        -2.18,
+        2.7
+      ],
+      "sample_delta_a": -18.01,
+      "sample_delta_E": 31.1781,
+      "sample_delta_L": 20.42,
+      "report_before_lab": [
+        43.84729739175043,
+        15.095505907010864,
+        -15.23128961698401
+      ],
+      "report_after_lab": [
+        64.26391242804931,
+        -2.1466282523209257,
+        -0.7476218074930374
+      ],
+      "report_delta_a": -17.2421,
+      "report_delta_E": 30.3958
+    },
+    {
+      "sample_file": "IMG_8056.JPG",
+      "report_file": "IMG_8057.JPG",
+      "sample_before_rgb": [
+        156,
+        126,
+        152
+      ],
+      "sample_after_rgb": [
+        171,
+        173,
+        171
+      ],
+      "sample_before_lab": [
+        56.34,
+        16.2,
+        -9.57
+      ],
+      "sample_after_lab": [
+        70.51,
+        -1.08,
+        0.78
+      ],
+      "sample_delta_a": -17.28,
+      "sample_delta_E": 24.6274,
+      "sample_delta_L": 14.17,
+      "report_before_lab": [
+        48.509629955771246,
+        15.40238131657623,
+        -12.208940096460474
+      ],
+      "report_after_lab": [
+        62.17749802180926,
+        -1.0010567096642164,
+        -2.726216926628844
+      ],
+      "report_delta_a": -16.4034,
+      "report_delta_E": 23.3625
+    },
+    {
+      "sample_file": "IMG_8058.JPG",
+      "report_file": "IMG_8059.JPG",
+      "sample_before_rgb": [
+        156,
+        124,
+        152
+      ],
+      "sample_after_rgb": [
+        167,
+        170,
+        167
+      ],
+      "sample_before_lab": [
+        55.84,
+        17.35,
+        -10.33
+      ],
+      "sample_after_lab": [
+        69.29,
+        -1.63,
+        1.17
+      ],
+      "sample_delta_a": -18.98,
+      "sample_delta_E": 25.9498,
+      "sample_delta_L": 13.45,
+      "report_before_lab": [
+        47.75022888281136,
+        15.658315885754392,
+        -12.781220484277833
+      ],
+      "report_after_lab": [
+        61.386683780060636,
+        -1.2059111961001956,
+        -2.2077435915273558
+      ],
+      "report_delta_a": -16.8642,
+      "report_delta_E": 24.1279
+    },
+    {
+      "sample_file": "IMG_8060.JPG",
+      "report_file": "IMG_8061.JPG",
+      "sample_before_rgb": [
+        160,
+        128,
+        157
+      ],
+      "sample_after_rgb": [
+        170,
+        174,
+        171
+      ],
+      "sample_before_lab": [
+        57.41,
+        17.45,
+        -10.81
+      ],
+      "sample_after_lab": [
+        70.7,
+        -1.98,
+        1.04
+      ],
+      "sample_delta_a": -19.43,
+      "sample_delta_E": 26.3547,
+      "sample_delta_L": 13.29,
+      "report_before_lab": [
+        49.409926698561875,
+        15.986140331543996,
+        -13.792001282665023
+      ],
+      "report_after_lab": [
+        62.67797000477613,
+        -2.260040335920477,
+        -2.5643250558461173
+      ],
+      "report_delta_a": -18.2462,
+      "report_delta_E": 25.1997
+    },
+    {
+      "sample_file": "IMG_8062.JPG",
+      "report_file": "IMG_8063.JPG",
+      "sample_before_rgb": [
+        155,
+        128,
+        152
+      ],
+      "sample_after_rgb": [
+        162,
+        163,
+        163
+      ],
+      "sample_before_lab": [
+        56.76,
+        14.69,
+        -8.96
+      ],
+      "sample_after_lab": [
+        66.92,
+        -0.36,
+        -0.13
+      ],
+      "sample_delta_a": -15.05,
+      "sample_delta_E": 20.1915,
+      "sample_delta_L": 10.16,
+      "report_before_lab": [
+        49.13521184992189,
+        13.111412694104152,
+        -11.877450873191474
+      ],
+      "report_after_lab": [
+        58.53506582439522,
+        -0.08858633437336394,
+        -3.0375479679914275
+      ],
+      "report_delta_a": -13.2,
+      "report_delta_E": 18.4592
+    },
+    {
+      "sample_file": "IMG_8064.JPG",
+      "report_file": "IMG_8065.JPG",
+      "sample_before_rgb": [
+        157,
+        125,
+        152
+      ],
+      "sample_after_rgb": [
+        160,
+        162,
+        161
+      ],
+      "sample_before_lab": [
+        56.19,
+        17.13,
+        -9.79
+      ],
+      "sample_after_lab": [
+        66.43,
+        -0.91,
+        0.27
+      ],
+      "sample_delta_a": -18.04,
+      "sample_delta_E": 23.0543,
+      "sample_delta_L": 10.24,
+      "report_before_lab": [
+        48.14806161346584,
+        15.63483706117963,
+        -12.765026136392898
+      ],
+      "report_after_lab": [
+        58.703557569699484,
+        -1.2150483481775387,
+        -2.2266604603183415
+      ],
+      "report_delta_a": -16.8499,
+      "report_delta_E": 22.5032
+    },
+    {
+      "sample_file": "IMG_8067.JPG",
+      "report_file": "IMG_8068.JPG",
+      "sample_before_rgb": [
+        158,
+        126,
+        153
+      ],
+      "sample_after_rgb": [
+        161,
+        163,
+        162
+      ],
+      "sample_before_lab": [
+        56.58,
+        17.11,
+        -9.78
+      ],
+      "sample_after_lab": [
+        66.81,
+        -0.91,
+        0.27
+      ],
+      "sample_delta_a": -18.02,
+      "sample_delta_E": 23.0299,
+      "sample_delta_L": 10.23,
+      "report_before_lab": [
+        48.54531708511624,
+        15.611552219699066,
+        -12.748943358511045
+      ],
+      "report_after_lab": [
+        59.088317447260124,
+        -1.2137183135860208,
+        -2.22389818953872
+      ],
+      "report_delta_a": -16.8253,
+      "report_delta_E": 22.4727
+    },
+    {
+      "sample_file": "IMG_8073.JPG",
+      "report_file": "IMG_8074.JPG",
+      "sample_before_rgb": [
+        144,
+        120,
+        146
+      ],
+      "sample_after_rgb": [
+        175,
+        180,
+        173
+      ],
+      "sample_before_lab": [
+        53.43,
+        14.15,
+        -10.58
+      ],
+      "sample_after_lab": [
+        72.74,
+        -3.06,
+        2.95
+      ],
+      "sample_delta_a": -17.21,
+      "sample_delta_E": 29.1911,
+      "sample_delta_L": 19.31,
+      "report_before_lab": [
+        45.22204683209347,
+        12.294619470372192,
+        -13.742936926919768
+      ],
+      "report_after_lab": [
+        63.22899418205323,
+        -3.3647943595482843,
+        -1.7551993479363537
+      ],
+      "report_delta_a": -15.6594,
+      "report_delta_E": 26.7053
+    },
+    {
+      "sample_file": "IMG_8075.JPG",
+      "report_file": "IMG_8076.JPG",
+      "sample_before_rgb": [
+        137,
+        111,
+        135
+      ],
+      "sample_after_rgb": [
+        168,
+        172,
+        167
+      ],
+      "sample_before_lab": [
+        50.02,
+        14.66,
+        -9.29
+      ],
+      "sample_after_lab": [
+        69.91,
+        -2.36,
+        2.07
+      ],
+      "sample_delta_a": -17.02,
+      "sample_delta_E": 28.5367,
+      "sample_delta_L": 19.89,
+      "report_before_lab": [
+        42.23737192738983,
+        13.330906070426307,
+        -12.876884526690935
+      ],
+      "report_after_lab": [
+        60.74366096003533,
+        -2.477370495086617,
+        -2.0531201254653464
+      ],
+      "report_delta_a": -15.8083,
+      "report_delta_E": 26.6372
+    },
+    {
+      "sample_file": "IMG_8078.JPG",
+      "report_file": "IMG_8079.JPG",
+      "sample_before_rgb": [
+        149,
+        122,
+        151
+      ],
+      "sample_after_rgb": [
+        176,
+        182,
+        177
+      ],
+      "sample_before_lab": [
+        54.6,
+        15.79,
+        -11.68
+      ],
+      "sample_after_lab": [
+        73.45,
+        -3.04,
+        1.81
+      ],
+      "sample_delta_a": -18.83,
+      "sample_delta_E": 29.8642,
+      "sample_delta_L": 18.85,
+      "report_before_lab": [
+        46.82894804704391,
+        13.96863268902443,
+        -14.83985998593964
+      ],
+      "report_after_lab": [
+        63.986661550520765,
+        -3.3575597949308533,
+        -1.7515413777622335
+      ],
+      "report_delta_a": -17.3262,
+      "report_delta_E": 27.6747
+    },
+    {
+      "sample_file": "IMG_8080.JPG",
+      "report_file": "IMG_8081.JPG",
+      "sample_before_rgb": [
+        148,
+        114,
+        140
+      ],
+      "sample_after_rgb": [
+        166,
+        170,
+        165
+      ],
+      "sample_before_lab": [
+        52.09,
+        17.92,
+        -9.02
+      ],
+      "sample_after_lab": [
+        69.16,
+        -2.36,
+        2.08
+      ],
+      "sample_delta_a": -20.28,
+      "sample_delta_E": 28.738,
+      "sample_delta_L": 17.07,
+      "report_before_lab": [
+        44.5462118872769,
+        15.853462869920232,
+        -12.914937320174612
+      ],
+      "report_after_lab": [
+        59.21037612755026,
+        -2.488495659644596,
+        -2.0627098685050527
+      ],
+      "report_delta_a": -18.342,
+      "report_delta_E": 25.8696
+    },
+    {
+      "sample_file": "IMG_8084.JPG",
+      "report_file": "IMG_8085.JPG",
+      "sample_before_rgb": [
+        155,
+        121,
+        149
+      ],
+      "sample_after_rgb": [
+        172,
+        176,
+        172
+      ],
+      "sample_before_lab": [
+        54.88,
+        18.14,
+        -10.03
+      ],
+      "sample_after_lab": [
+        71.42,
+        -2.16,
+        1.55
+      ],
+      "sample_delta_a": -20.3,
+      "sample_delta_E": 28.6314,
+      "sample_delta_L": 16.54,
+      "report_before_lab": [
+        47.025979752817854,
+        16.130676127075304,
+        -13.897439191363258
+      ],
+      "report_after_lab": [
+        61.53592241613369,
+        -2.2671406978650444,
+        -2.5731316834628926
+      ],
+      "report_delta_a": -18.3978,
+      "report_delta_E": 26.0242
+    },
+    {
+      "sample_file": "IMG_8089.JPG",
+      "report_file": "IMG_8090.JPG",
+      "sample_before_rgb": [
+        153,
+        120,
+        150
+      ],
+      "sample_after_rgb": [
+        161,
+        165,
+        159
+      ],
+      "sample_before_lab": [
+        54.46,
+        18.19,
+        -11.27
+      ],
+      "sample_after_lab": [
+        67.27,
+        -2.56,
+        2.61
+      ],
+      "sample_delta_a": -20.75,
+      "sample_delta_E": 28.0591,
+      "sample_delta_L": 12.81,
+      "report_before_lab": [
+        47.025979752817854,
+        16.130676127075304,
+        -13.897439191363258
+      ],
+      "report_after_lab": [
+        58.055287368378075,
+        -2.4970350000546593,
+        -2.0700806750501233
+      ],
+      "report_delta_a": -18.6277,
+      "report_delta_E": 24.6683
+    },
+    {
+      "sample_file": "IMG_8093.JPG",
+      "report_file": "IMG_8094.JPG",
+      "sample_before_rgb": [
+        179,
+        114,
+        159
+      ],
+      "sample_after_rgb": [
+        163,
+        173,
+        167
+      ],
+      "sample_before_lab": [
+        56.21,
+        32.42,
+        -13.57
+      ],
+      "sample_after_lab": [
+        69.8,
+        -4.67,
+        1.87
+      ],
+      "sample_delta_a": -37.09,
+      "sample_delta_E": 42.4117,
+      "sample_delta_L": 13.59,
+      "report_before_lab": [
+        48.2821463863781,
+        29.030607044335188,
+        -16.52892828920569
+      ],
+      "report_after_lab": [
+        61.00033245634707,
+        -4.995089520064944,
+        -1.7114870887035227
+      ],
+      "report_delta_a": -34.0257,
+      "report_delta_E": 39.2308
+    },
+    {
+      "sample_file": "IMG_8095.JPG",
+      "report_file": "IMG_8096.JPG",
+      "sample_before_rgb": [
+        159,
+        100,
+        145
+      ],
+      "sample_after_rgb": [
+        172,
+        178,
+        172
+      ],
+      "sample_before_lab": [
+        50.13,
+        30.82,
+        -14.8
+      ],
+      "sample_after_lab": [
+        71.95,
+        -3.24,
+        2.33
+      ],
+      "sample_delta_a": -34.06,
+      "sample_delta_E": 43.9276,
+      "sample_delta_L": 21.82,
+      "report_before_lab": [
+        42.82632057769351,
+        27.379217438926517,
+        -17.854629755300564
+      ],
+      "report_after_lab": [
+        62.649608694777385,
+        -2.4638639092300907,
+        -2.0414966955364156
+      ],
+      "report_delta_a": -29.8431,
+      "report_delta_E": 39.1616
+    },
+    {
+      "sample_file": "IMG_8097.JPG",
+      "report_file": "IMG_8098.JPG",
+      "sample_before_rgb": [
+        157,
+        96,
+        144
+      ],
+      "sample_after_rgb": [
+        180,
+        185,
+        178
+      ],
+      "sample_before_lab": [
+        48.94,
+        32.19,
+        -16.04
+      ],
+      "sample_after_lab": [
+        74.58,
+        -3.05,
+        2.94
+      ],
+      "sample_delta_a": -35.24,
+      "sample_delta_E": 47.5343,
+      "sample_delta_L": 25.64,
+      "report_before_lab": [
+        40.71846465014986,
+        28.75622071543876,
+        -19.930340991045693
+      ],
+      "report_after_lab": [
+        65.14781897285604,
+        -3.1442088998266393,
+        -2.265084039414189
+      ],
+      "report_delta_a": -31.9004,
+      "report_delta_E": 43.8918
+    },
+    {
+      "sample_file": "IMG_8101.JPG",
+      "report_file": "IMG_8102.JPG",
+      "sample_before_rgb": [
+        146,
+        131,
+        143
+      ],
+      "sample_after_rgb": [
+        142,
+        151,
+        146
+      ],
+      "sample_before_lab": [
+        56.41,
+        7.92,
+        -4.36
+      ],
+      "sample_after_lab": [
+        61.62,
+        -4.23,
+        1.51
+      ],
+      "sample_delta_a": -12.15,
+      "sample_delta_E": 14.4646,
+      "sample_delta_L": 5.21,
+      "report_before_lab": [
+        49.50391759347771,
+        7.4394321483469135,
+        -7.226705452996418
+      ],
+      "report_after_lab": [
+        53.806600544784786,
+        -4.390945161486415,
+        -1.5057484868184146
+      ],
+      "report_delta_a": -11.8304,
+      "report_delta_E": 13.8275
+    },
+    {
+      "sample_file": "IMG_8104.JPG",
+      "report_file": "IMG_8105.JPG",
+      "sample_before_rgb": [
+        152,
+        142,
+        152
+      ],
+      "sample_after_rgb": [
+        149,
+        159,
+        154
+      ],
+      "sample_before_lab": [
+        60.15,
+        5.6,
+        -3.95
+      ],
+      "sample_after_lab": [
+        64.58,
+        -4.54,
+        1.38
+      ],
+      "sample_delta_a": -10.14,
+      "sample_delta_E": 12.2822,
+      "sample_delta_L": 4.43,
+      "report_before_lab": [
+        52.77333365825912,
+        4.370482703594747,
+        -7.03229396591547
+      ],
+      "report_after_lab": [
+        57.30704188189746,
+        -4.343301137620714,
+        -1.4917307766562748
+      ],
+      "report_delta_a": -8.7138,
+      "report_delta_E": 11.2775
+    },
+    {
+      "sample_file": "IMG_8107.JPG",
+      "report_file": "IMG_8108.JPG",
+      "sample_before_rgb": [
+        137,
+        127,
+        136
+      ],
+      "sample_after_rgb": [
+        135,
+        145,
+        139
+      ],
+      "sample_before_lab": [
+        54.32,
+        5.52,
+        -3.49
+      ],
+      "sample_after_lab": [
+        59.22,
+        -4.82,
+        1.93
+      ],
+      "sample_delta_a": -10.34,
+      "sample_delta_E": 12.661,
+      "sample_delta_L": 4.9,
+      "report_before_lab": [
+        47.21559863817015,
+        4.4720389907947915,
+        -7.177413716074832
+      ],
+      "report_after_lab": [
+        50.53714779985228,
+        -4.9368292190338225,
+        -2.3020905589506757
+      ],
+      "report_delta_a": -9.4089,
+      "report_delta_E": 11.1053
+    },
+    {
+      "sample_file": "IMG_8110.JPG",
+      "report_file": "IMG_8111.JPG",
+      "sample_before_rgb": [
+        145,
+        130,
+        142
+      ],
+      "sample_after_rgb": [
+        151,
+        159,
+        154
+      ],
+      "sample_before_lab": [
+        56.03,
+        7.93,
+        -4.37
+      ],
+      "sample_after_lab": [
+        64.73,
+        -3.83,
+        1.62
+      ],
+      "sample_delta_a": -11.76,
+      "sample_delta_E": 15.8072,
+      "sample_delta_L": 8.7,
+      "report_before_lab": [
+        49.598066307873935,
+        6.113503882395954,
+        -7.105500622580041
+      ],
+      "report_after_lab": [
+        56.920182495016775,
+        -4.348447847177084,
+        -1.4932533709109297
+      ],
+      "report_delta_a": -10.462,
+      "report_delta_E": 13.9486
+    },
+    {
+      "sample_file": "IMG_8112.JPG",
+      "report_file": "IMG_8113.JPG",
+      "sample_before_rgb": [
+        147,
+        134,
+        145
+      ],
+      "sample_after_rgb": [
+        154,
+        160,
+        156
+      ],
+      "sample_before_lab": [
+        57.36,
+        6.96,
+        -4.1
+      ],
+      "sample_after_lab": [
+        65.29,
+        -2.92,
+        1.34
+      ],
+      "sample_delta_a": -9.88,
+      "sample_delta_E": 13.7874,
+      "sample_delta_L": 7.93,
+      "report_before_lab": [
+        50.391731622586434,
+        6.094498012515325,
+        -7.085152581845455
+      ],
+      "report_after_lab": [
+        57.51577921242519,
+        -3.2128878607857736,
+        -2.3158480013808713
+      ],
+      "report_delta_a": -9.3074,
+      "report_delta_E": 12.6541
+    },
+    {
+      "sample_file": "IMG_8115.JPG",
+      "report_file": "IMG_8116.JPG",
+      "sample_before_rgb": [
+        147,
+        140,
+        147
+      ],
+      "sample_after_rgb": [
+        151,
+        163,
+        156
+      ],
+      "sample_before_lab": [
+        59.04,
+        3.94,
+        -2.79
+      ],
+      "sample_after_lab": [
+        65.88,
+        -5.62,
+        2.17
+      ],
+      "sample_delta_a": -9.56,
+      "sample_delta_E": 12.7586,
+      "sample_delta_L": 6.84,
+      "report_before_lab": [
+        51.78443412442982,
+        3.445961259721131,
+        -6.784610197693519
+      ],
+      "report_after_lab": [
+        57.93039180528919,
+        -5.040018257641831,
+        -1.7244584735845558
+      ],
+      "report_delta_a": -8.486,
+      "report_delta_E": 11.6357
+    },
+    {
+      "sample_file": "IMG_8122.JPG",
+      "report_file": "IMG_8123.JPG",
+      "sample_before_rgb": [
+        183,
+        156,
+        182
+      ],
+      "sample_after_rgb": [
+        190,
+        197,
+        196
+      ],
+      "sample_before_lab": [
+        67.44,
+        14.58,
+        -9.74
+      ],
+      "sample_after_lab": [
+        78.96,
+        -2.59,
+        -0.34
+      ],
+      "sample_delta_a": -17.17,
+      "sample_delta_E": 22.713,
+      "sample_delta_L": 11.52,
+      "report_before_lab": [
+        60.259841160168875,
+        13.782317902115649,
+        -13.413169803189717
+      ],
+      "report_after_lab": [
+        71.10800539303573,
+        -3.0366195378836447,
+        -3.3647761352714856
+      ],
+      "report_delta_a": -16.8189,
+      "report_delta_E": 22.3949
+    },
+    {
+      "sample_file": "IMG_8124.JPG",
+      "report_file": "IMG_8125.JPG",
+      "sample_before_rgb": [
+        131,
+        118,
+        134
+      ],
+      "sample_after_rgb": [
+        148,
+        160,
+        151
+      ],
+      "sample_before_lab": [
+        51.27,
+        8.13,
+        -6.9
+      ],
+      "sample_after_lab": [
+        64.7,
+        -6.03,
+        3.23
+      ],
+      "sample_delta_a": -14.16,
+      "sample_delta_E": 21.9883,
+      "sample_delta_L": 13.43,
+      "report_before_lab": [
+        44.60744342897899,
+        7.49837316089208,
+        -9.309257414840166
+      ],
+      "report_after_lab": [
+        56.224506119319244,
+        -6.052786685018463,
+        -0.24500933651632195
+      ],
+      "report_delta_a": -13.5512,
+      "report_delta_E": 20.0188
+    },
+    {
+      "sample_file": "IMG_8126.JPG",
+      "report_file": "IMG_8127.JPG",
+      "sample_before_rgb": [
+        145,
+        132,
+        144
+      ],
+      "sample_after_rgb": [
+        155,
+        168,
+        157
+      ],
+      "sample_before_lab": [
+        56.62,
+        7.18,
+        -4.65
+      ],
+      "sample_after_lab": [
+        67.58,
+        -6.71,
+        4.11
+      ],
+      "sample_delta_a": -13.89,
+      "sample_delta_E": 19.7431,
+      "sample_delta_L": 10.96,
+      "report_before_lab": [
+        49.541884152824366,
+        5.96156227257122,
+        -7.790251970616802
+      ],
+      "report_after_lab": [
+        59.4671309765297,
+        -7.313135122806013,
+        1.110004349332594
+      ],
+      "report_delta_a": -13.2747,
+      "report_delta_E": 18.8134
+    },
+    {
+      "sample_file": "IMG_8129.JPG",
+      "report_file": "IMG_8130.JPG",
+      "sample_before_rgb": [
+        148,
+        134,
+        149
+      ],
+      "sample_after_rgb": [
+        152,
+        170,
+        158
+      ],
+      "sample_before_lab": [
+        57.58,
+        8.11,
+        -6.08
+      ],
+      "sample_after_lab": [
+        67.94,
+        -8.65,
+        4.05
+      ],
+      "sample_delta_a": -16.76,
+      "sample_delta_E": 22.155,
+      "sample_delta_L": 10.36,
+      "report_before_lab": [
+        50.79749952146061,
+        6.364419989441206,
+        -8.835999430179031
+      ],
+      "report_after_lab": [
+        58.55548623004866,
+        -8.036781540540161,
+        0.8879562842599942
+      ],
+      "report_delta_a": -14.4012,
+      "report_delta_E": 19.0299
+    },
+    {
+      "sample_file": "IMG_8134.JPG",
+      "report_file": "IMG_8135.JPG",
+      "sample_before_rgb": [
+        160,
+        136,
+        150
+      ],
+      "sample_after_rgb": [
+        114,
+        135,
+        130
+      ],
+      "sample_before_lab": [
+        59.24,
+        11.56,
+        -4.08
+      ],
+      "sample_after_lab": [
+        54.57,
+        -8.63,
+        0.15
+      ],
+      "sample_delta_a": -20.19,
+      "sample_delta_E": 21.1504,
+      "sample_delta_L": -4.67,
+      "report_before_lab": [
+        50.79749952146061,
+        6.364419989441206,
+        -8.835999430179031
+      ],
+      "report_after_lab": [
+        58.55548623004866,
+        -8.036781540540161,
+        0.8879562842599942
+      ],
+      "report_delta_a": -14.4012,
+      "report_delta_E": 19.0299
+    },
+    {
+      "sample_file": "IMG_8138.JPG",
+      "report_file": "IMG_8139.JPG",
+      "sample_before_rgb": [
+        133,
+        122,
+        135
+      ],
+      "sample_after_rgb": [
+        156,
+        167,
+        157
+      ],
+      "sample_before_lab": [
+        52.57,
+        6.74,
+        -5.53
+      ],
+      "sample_after_lab": [
+        67.38,
+        -5.82,
+        3.83
+      ],
+      "sample_delta_a": -12.56,
+      "sample_delta_E": 21.5569,
+      "sample_delta_L": 14.81,
+      "report_before_lab": [
+        50.79749952146061,
+        6.364419989441206,
+        -8.835999430179031
+      ],
+      "report_after_lab": [
+        58.55548623004866,
+        -8.036781540540161,
+        0.8879562842599942
+      ],
+      "report_delta_a": -14.4012,
+      "report_delta_E": 19.0299
+    },
+    {
+      "sample_file": "IMG_8149.JPG",
+      "report_file": "IMG_8150.JPG",
+      "sample_before_rgb": [
+        151,
+        133,
+        148
+      ],
+      "sample_after_rgb": [
+        139,
+        158,
+        147
+      ],
+      "sample_before_lab": [
+        57.55,
+        9.58,
+        -5.51
+      ],
+      "sample_after_lab": [
+        63.38,
+        -8.92,
+        3.48
+      ],
+      "sample_delta_a": -18.5,
+      "sample_delta_E": 21.3789,
+      "sample_delta_L": 5.83,
+      "report_before_lab": [
+        49.75315521851272,
+        8.595481806619398,
+        -8.018794078007652
+      ],
+      "report_after_lab": [
+        54.90472716244095,
+        -9.044570913574857,
+        1.222703227305355
+      ],
+      "report_delta_a": -17.6401,
+      "report_delta_E": 20.5698
+    },
+    {
+      "sample_file": "IMG_8152.JPG",
+      "report_file": "IMG_8153.JPG",
+      "sample_before_rgb": [
+        172,
+        145,
+        165
+      ],
+      "sample_after_rgb": [
+        134,
+        156,
+        146
+      ],
+      "sample_before_lab": [
+        63.13,
+        13.63,
+        -6.73
+      ],
+      "sample_after_lab": [
+        62.44,
+        -9.8,
+        2.63
+      ],
+      "sample_delta_a": -23.43,
+      "sample_delta_E": 25.2399,
+      "sample_delta_L": -0.69,
+      "report_before_lab": [
+        55.469708447814384,
+        12.716915435017961,
+        -9.22003616484648
+      ],
+      "report_after_lab": [
+        53.486985445464796,
+        -10.261324845289632,
+        0.25715452333261446
+      ],
+      "report_delta_a": -22.9782,
+      "report_delta_E": 24.9349
+    },
+    {
+      "sample_file": "IMG_8155.JPG",
+      "report_file": "IMG_8156.JPG",
+      "sample_before_rgb": [
+        161,
+        138,
+        157
+      ],
+      "sample_after_rgb": [
+        150,
+        165,
+        155
+      ],
+      "sample_before_lab": [
+        60.06,
+        12.11,
+        -6.85
+      ],
+      "sample_after_lab": [
+        66.34,
+        -7.25,
+        3.38
+      ],
+      "sample_delta_a": -19.36,
+      "sample_delta_E": 22.7794,
+      "sample_delta_L": 6.28,
+      "report_before_lab": [
+        52.32593180315651,
+        11.180563655083853,
+        -9.37115693833288
+      ],
+      "report_after_lab": [
+        56.77010025392249,
+        -7.375272957606649,
+        1.1258953563549667
+      ],
+      "report_delta_a": -18.5558,
+      "report_delta_E": 21.7775
+    },
+    {
+      "sample_file": "IMG_8158.JPG",
+      "report_file": "IMG_8159.JPG",
+      "sample_before_rgb": [
+        163,
+        141,
+        164
+      ],
+      "sample_after_rgb": [
+        146,
+        163,
+        150
+      ],
+      "sample_before_lab": [
+        61.24,
+        12.48,
+        -9.07
+      ],
+      "sample_after_lab": [
+        65.36,
+        -8.56,
+        4.72
+      ],
+      "sample_delta_a": -21.04,
+      "sample_delta_E": 25.4916,
+      "sample_delta_L": 4.12,
+      "report_before_lab": [
+        53.44999528744509,
+        11.251266912124414,
+        -11.764510924513004
+      ],
+      "report_after_lab": [
+        56.80744037824397,
+        -9.465143669268706,
+        3.458558061766537
+      ],
+      "report_delta_a": -20.7164,
+      "report_delta_E": 25.9265
+    },
+    {
+      "sample_file": "IMG_8163.JPG",
+      "report_file": "IMG_8164.JPG",
+      "sample_before_rgb": [
+        153,
+        131,
+        153
+      ],
+      "sample_after_rgb": [
+        146,
+        158,
+        150
+      ],
+      "sample_before_lab": [
+        57.37,
+        12.44,
+        -8.64
+      ],
+      "sample_after_lab": [
+        63.97,
+        -5.85,
+        2.71
+      ],
+      "sample_delta_a": -18.29,
+      "sample_delta_E": 22.5146,
+      "sample_delta_L": 6.6,
+      "report_before_lab": [
+        49.710319772050795,
+        10.398299356716379,
+        -10.438703216150058
+      ],
+      "report_after_lab": [
+        55.00261278157927,
+        -6.495029137375708,
+        0.8310593222674134
+      ],
+      "report_delta_a": -16.8933,
+      "report_delta_E": 20.9857
+    },
+    {
+      "sample_file": "IMG_8165.JPG",
+      "report_file": "IMG_8166.JPG",
+      "sample_before_rgb": [
+        159,
+        133,
+        162
+      ],
+      "sample_after_rgb": [
+        141,
+        151,
+        141
+      ],
+      "sample_before_lab": [
+        58.75,
+        15.22,
+        -11.69
+      ],
+      "sample_after_lab": [
+        61.41,
+        -5.56,
+        4.03
+      ],
+      "sample_delta_a": -20.78,
+      "sample_delta_E": 26.1916,
+      "sample_delta_L": 2.66,
+      "report_before_lab": [
+        51.487712046340704,
+        11.334095578566961,
+        -11.84103114554138
+      ],
+      "report_after_lab": [
+        54.38390753379038,
+        -7.848005438909233,
+        2.2191694074057633
+      ],
+      "report_delta_a": -19.1821,
+      "report_delta_E": 23.9589
+    },
+    {
+      "sample_file": "IMG_8191.JPG",
+      "report_file": "IMG_8192.JPG",
+      "sample_before_rgb": [
+        159,
+        121,
+        150
+      ],
+      "sample_after_rgb": [
+        140,
+        153,
+        152
+      ],
+      "sample_before_lab": [
+        55.33,
+        19.77,
+        -9.9
+      ],
+      "sample_after_lab": [
+        62.19,
+        -4.84,
+        -1.07
+      ],
+      "sample_delta_a": -24.61,
+      "sample_delta_E": 27.0311,
+      "sample_delta_L": 6.86,
+      "report_before_lab": [
+        47.401515221011344,
+        17.36108407026776,
+        -12.692634163147765
+      ],
+      "report_after_lab": [
+        53.34012325292625,
+        -4.362718930687959,
+        -4.553685229578552
+      ],
+      "report_delta_a": -21.7238,
+      "report_delta_E": 23.9465
+    },
+    {
+      "sample_file": "IMG_8193.JPG",
+      "report_file": "IMG_8194.JPG",
+      "sample_before_rgb": [
+        165,
+        127,
+        158
+      ],
+      "sample_after_rgb": [
+        148,
+        166,
+        160
+      ],
+      "sample_before_lab": [
+        57.7,
+        20.0,
+        -10.9
+      ],
+      "sample_after_lab": [
+        66.6,
+        -7.51,
+        0.96
+      ],
+      "sample_delta_a": -27.51,
+      "sample_delta_E": 31.2517,
+      "sample_delta_L": 8.9,
+      "report_before_lab": [
+        49.20040312311592,
+        18.237156320442594,
+        -14.080476987159951
+      ],
+      "report_after_lab": [
+        56.684196944384695,
+        -7.268025431114655,
+        -3.057025563587623
+      ],
+      "report_delta_a": -25.5052,
+      "report_delta_E": 28.7756
+    },
+    {
+      "sample_file": "IMG_8195.JPG",
+      "report_file": "IMG_8196.JPG",
+      "sample_before_rgb": [
+        157,
+        121,
+        151
+      ],
+      "sample_after_rgb": [
+        142,
+        160,
+        154
+      ],
+      "sample_before_lab": [
+        55.15,
+        19.24,
+        -10.76
+      ],
+      "sample_after_lab": [
+        64.34,
+        -7.55,
+        0.97
+      ],
+      "sample_delta_a": -26.79,
+      "sample_delta_E": 30.6554,
+      "sample_delta_L": 9.19,
+      "report_before_lab": [
+        47.267345685574924,
+        17.0595409407166,
+        -14.108679256904821
+      ],
+      "report_after_lab": [
+        55.14445252737244,
+        -7.396772222927339,
+        -1.8864509043316158
+      ],
+      "report_delta_a": -24.4563,
+      "report_delta_E": 28.4525
+    },
+    {
+      "sample_file": "IMG_8197.JPG",
+      "report_file": "IMG_8198.JPG",
+      "sample_before_rgb": [
+        136,
+        110,
+        146
+      ],
+      "sample_after_rgb": [
+        179,
+        183,
+        176
+      ],
+      "sample_before_lab": [
+        50.05,
+        17.17,
+        -15.75
+      ],
+      "sample_after_lab": [
+        73.92,
+        -2.7,
+        3.07
+      ],
+      "sample_delta_a": -19.87,
+      "sample_delta_E": 36.3151,
+      "sample_delta_L": 23.87,
+      "report_before_lab": [
+        42.53175783079202,
+        15.276925471147118,
+        -18.50547264477793
+      ],
+      "report_after_lab": [
+        64.76255917516136,
+        -3.4007863653053305,
+        -0.5884388891812531
+      ],
+      "report_delta_a": -18.6777,
+      "report_delta_E": 34.1187
+    },
+    {
+      "sample_file": "IMG_8201.JPG",
+      "report_file": "IMG_8202.JPG",
+      "sample_before_rgb": [
+        132,
+        107,
+        141
+      ],
+      "sample_after_rgb": [
+        177,
+        181,
+        175
+      ],
+      "sample_before_lab": [
+        48.69,
+        16.46,
+        -14.9
+      ],
+      "sample_after_lab": [
+        73.21,
+        -2.52,
+        2.56
+      ],
+      "sample_delta_a": -18.98,
+      "sample_delta_E": 35.5854,
+      "sample_delta_L": 24.52,
+      "report_before_lab": [
+        42.53175783079202,
+        15.276925471147118,
+        -18.50547264477793
+      ],
+      "report_after_lab": [
+        64.76255917516136,
+        -3.4007863653053305,
+        -0.5884388891812531
+      ],
+      "report_delta_a": -18.6777,
+      "report_delta_E": 34.1187
+    },
+    {
+      "sample_file": "IMG_8204.JPG",
+      "report_file": "IMG_8205.JPG",
+      "sample_before_rgb": [
+        135,
+        109,
+        145
+      ],
+      "sample_after_rgb": [
+        183,
+        186,
+        181
+      ],
+      "sample_before_lab": [
+        49.66,
+        17.19,
+        -15.77
+      ],
+      "sample_after_lab": [
+        75.15,
+        -1.97,
+        2.16
+      ],
+      "sample_delta_a": -19.16,
+      "sample_delta_E": 36.5832,
+      "sample_delta_L": 25.49,
+      "report_before_lab": [
+        42.53175783079202,
+        15.276925471147118,
+        -18.50547264477793
+      ],
+      "report_after_lab": [
+        64.76255917516136,
+        -3.4007863653053305,
+        -0.5884388891812531
+      ],
+      "report_delta_a": -18.6777,
+      "report_delta_E": 34.1187
+    },
+    {
+      "sample_file": "IMG_8225.JPG",
+      "report_file": "IMG_8226.JPG",
+      "sample_before_rgb": [
+        163,
+        117,
+        160
+      ],
+      "sample_after_rgb": [
+        162,
+        170,
+        167
+      ],
+      "sample_before_lab": [
+        55.12,
+        25.38,
+        -15.97
+      ],
+      "sample_after_lab": [
+        68.91,
+        -3.4,
+        0.56
+      ],
+      "sample_delta_a": -28.78,
+      "sample_delta_E": 35.9401,
+      "sample_delta_L": 13.79,
+      "report_before_lab": [
+        48.345050289147366,
+        22.924768000218478,
+        -18.326431721513757
+      ],
+      "report_after_lab": [
+        60.17997969031764,
+        -3.394680219275692,
+        -1.7702956032684236
+      ],
+      "report_delta_a": -26.3194,
+      "report_delta_E": 33.2699
+    },
+    {
+      "sample_file": "IMG_8227.JPG",
+      "report_file": "IMG_8228.JPG",
+      "sample_before_rgb": [
+        163,
+        118,
+        164
+      ],
+      "sample_after_rgb": [
+        171,
+        180,
+        175
+      ],
+      "sample_before_lab": [
+        55.51,
+        25.59,
+        -17.7
+      ],
+      "sample_after_lab": [
+        72.49,
+        -4.09,
+        1.46
+      ],
+      "sample_delta_a": -29.68,
+      "sample_delta_E": 39.196,
+      "sample_delta_L": 16.98,
+      "report_before_lab": [
+        48.652094709759,
+        24.324759818095064,
+        -20.806143090253414
+      ],
+      "report_after_lab": [
+        63.60805227027983,
+        -3.3611656340580276,
+        -1.7533647494221594
+      ],
+      "report_delta_a": -27.6859,
+      "report_delta_E": 36.7859
+    },
+    {
+      "sample_file": "IMG_8229.JPG",
+      "report_file": "IMG_8230.JPG",
+      "sample_before_rgb": [
+        162,
+        120,
+        166
+      ],
+      "sample_after_rgb": [
+        179,
+        185,
+        180
+      ],
+      "sample_before_lab": [
+        55.96,
+        24.5,
+        -18.19
+      ],
+      "sample_after_lab": [
+        74.56,
+        -3.03,
+        1.8
+      ],
+      "sample_delta_a": -27.53,
+      "sample_delta_E": 38.7745,
+      "sample_delta_L": 18.6,
+      "report_before_lab": [
+        49.2206129186539,
+        22.101882306547914,
+        -20.541424793746565
+      ],
+      "report_after_lab": [
+        67.394534190352,
+        -3.3749611707878935,
+        -0.5850002016111633
+      ],
+      "report_delta_a": -25.4768,
+      "report_delta_E": 37.1163
+    },
+    {
+      "sample_file": "IMG_8234.JPG",
+      "report_file": "IMG_8235.JPG",
+      "sample_before_rgb": [
+        171,
+        122,
+        170
+      ],
+      "sample_after_rgb": [
+        157,
+        169,
+        167
+      ],
+      "sample_before_lab": [
+        57.54,
+        27.22,
+        -17.99
+      ],
+      "sample_after_lab": [
+        68.27,
+        -4.61,
+        -0.42
+      ],
+      "sample_delta_a": -31.83,
+      "sample_delta_E": 37.9076,
+      "sample_delta_L": 10.73,
+      "report_before_lab": [
+        50.86612212191319,
+        25.04734379913237,
+        -20.873681306714275
+      ],
+      "report_after_lab": [
+        60.248621525111844,
+        -4.719305746060554,
+        -3.4098043427402525
+      ],
+      "report_delta_a": -29.7666,
+      "report_delta_E": 35.7641
+    },
+    {
+      "sample_file": "IMG_8236.JPG",
+      "report_file": "IMG_8237.JPG",
+      "sample_before_rgb": [
+        158,
+        116,
+        162
+      ],
+      "sample_after_rgb": [
+        176,
+        182,
+        179
+      ],
+      "sample_before_lab": [
+        54.42,
+        24.62,
+        -18.26
+      ],
+      "sample_after_lab": [
+        73.51,
+        -2.66,
+        0.79
+      ],
+      "sample_delta_a": -27.28,
+      "sample_delta_E": 38.3605,
+      "sample_delta_L": 19.09,
+      "report_before_lab": [
+        48.037436119915796,
+        22.197314758465815,
+        -20.6128105710615
+      ],
+      "report_after_lab": [
+        64.77057438319352,
+        -3.147444679853728,
+        -2.267469467239591
+      ],
+      "report_delta_a": -25.3448,
+      "report_delta_E": 35.4811
+    },
+    {
+      "sample_file": "IMG_8241.JPG",
+      "report_file": "IMG_8242.JPG",
+      "sample_before_rgb": [
+        132,
+        95,
+        139
+      ],
+      "sample_after_rgb": [
+        178,
+        183,
+        179
+      ],
+      "sample_before_lab": [
+        45.57,
+        23.15,
+        -18.47
+      ],
+      "sample_after_lab": [
+        73.92,
+        -2.5,
+        1.42
+      ],
+      "sample_delta_a": -25.65,
+      "sample_delta_E": 43.0959,
+      "sample_delta_L": 28.35,
+      "report_before_lab": [
+        39.534658991462415,
+        21.299786260316424,
+        -21.30028354663065
+      ],
+      "report_after_lab": [
+        64.92167311123512,
+        -2.4482100758664305,
+        -2.0280503532360106
+      ],
+      "report_delta_a": -23.748,
+      "report_delta_E": 39.7478
+    },
+    {
+      "sample_file": "IMG_8249.JPG",
+      "report_file": "IMG_8250.JPG",
+      "sample_before_rgb": [
+        137,
+        116,
+        140
+      ],
+      "sample_after_rgb": [
+        141,
+        122,
+        147
+      ],
+      "sample_before_lab": [
+        51.5,
+        12.73,
+        -10.02
+      ],
+      "sample_after_lab": [
+        53.7,
+        12.11,
+        -10.79
+      ],
+      "sample_delta_a": -0.62,
+      "sample_delta_E": 2.4119,
+      "sample_delta_L": 2.2,
+      "report_before_lab": [
+        44.92003955101135,
+        10.90142038681574,
+        -12.415301966882609
+      ],
+      "report_after_lab": [
+        45.52915499804939,
+        11.91667347697145,
+        -13.877044956722905
+      ],
+      "report_delta_a": 1.0153,
+      "report_delta_E": 1.8811
+    },
+    {
+      "sample_file": "IMG_8253.JPG",
+      "report_file": "IMG_8254.JPG",
+      "sample_before_rgb": [
+        148,
+        122,
+        157
+      ],
+      "sample_after_rgb": [
+        189,
+        193,
+        187
+      ],
+      "sample_before_lab": [
+        54.71,
+        16.67,
+        -15.0
+      ],
+      "sample_after_lab": [
+        77.61,
+        -2.49,
+        2.53
+      ],
+      "sample_delta_a": -19.16,
+      "sample_delta_E": 34.6239,
+      "sample_delta_L": 22.9,
+      "report_before_lab": [
+        47.98636668456816,
+        14.10314498730525,
+        -17.231371639942637
+      ],
+      "report_after_lab": [
+        68.88923271859531,
+        -3.3607149267051994,
+        -0.5830816815616924
+      ],
+      "report_delta_a": -17.4639,
+      "report_delta_E": 31.9231
+    },
+    {
+      "sample_file": "IMG_8255.JPG",
+      "report_file": "IMG_8256.JPG",
+      "sample_before_rgb": [
+        158,
+        132,
+        166
+      ],
+      "sample_after_rgb": [
+        193,
+        196,
+        188
+      ],
+      "sample_before_lab": [
+        58.53,
+        16.25,
+        -14.32
+      ],
+      "sample_after_lab": [
+        78.72,
+        -2.5,
+        3.65
+      ],
+      "sample_delta_a": -18.75,
+      "sample_delta_E": 32.8956,
+      "sample_delta_L": 20.19,
+      "report_before_lab": [
+        51.47292267299797,
+        15.178437927135525,
+        -17.122807010139752
+      ],
+      "report_after_lab": [
+        69.46207283734994,
+        -2.500559589656559,
+        0.28996290511349443
+      ],
+      "report_delta_a": -17.679,
+      "report_delta_E": 30.649
+    },
+    {
+      "sample_file": "IMG_8257.JPG",
+      "report_file": "IMG_8258.JPG",
+      "sample_before_rgb": [
+        131,
+        106,
+        139
+      ],
+      "sample_after_rgb": [
+        173,
+        177,
+        170
+      ],
+      "sample_before_lab": [
+        48.26,
+        16.27,
+        -14.38
+      ],
+      "sample_after_lab": [
+        71.71,
+        -2.72,
+        3.09
+      ],
+      "sample_delta_a": -18.99,
+      "sample_delta_E": 34.8672,
+      "sample_delta_L": 23.45,
+      "report_before_lab": [
+        41.455212755046915,
+        14.03656306803569,
+        -16.53969989214408
+      ],
+      "report_after_lab": [
+        63.88552869262827,
+        -2.149056690443185,
+        -0.7484168663539181
+      ],
+      "report_delta_a": -16.1856,
+      "report_delta_E": 31.8506
+    },
+    {
+      "sample_file": "IMG_8264.JPG",
+      "report_file": "IMG_8265.JPG",
+      "sample_before_rgb": [
+        130,
+        123,
+        132
+      ],
+      "sample_after_rgb": [
+        156,
+        168,
+        155
+      ],
+      "sample_before_lab": [
+        52.48,
+        4.43,
+        -3.93
+      ],
+      "sample_after_lab": [
+        67.61,
+        -6.73,
+        5.27
+      ],
+      "sample_delta_a": -11.16,
+      "sample_delta_E": 20.9309,
+      "sample_delta_L": 15.13,
+      "report_before_lab": [
+        44.12924196530301,
+        3.4227164351018358,
+        -7.675905534308458
+      ],
+      "report_after_lab": [
+        59.63999868951228,
+        -6.399485445830299,
+        0.8101815723776218
+      ],
+      "report_delta_a": -9.8222,
+      "report_delta_E": 20.2256
+    },
+    {
+      "sample_file": "IMG_8266.JPG",
+      "report_file": "IMG_8267.JPG",
+      "sample_before_rgb": [
+        183,
+        125,
+        157
+      ],
+      "sample_after_rgb": [
+        145,
+        153,
+        153
+      ],
+      "sample_before_lab": [
+        59.13,
+        27.39,
+        -7.99
+      ],
+      "sample_after_lab": [
+        62.59,
+        -2.87,
+        -0.99
+      ],
+      "sample_delta_a": -30.26,
+      "sample_delta_E": 31.2512,
+      "sample_delta_L": 3.46,
+      "report_before_lab": [
+        56.972565938731236,
+        27.937101149197453,
+        -7.80294809134503
+      ],
+      "report_after_lab": [
+        60.07651340248961,
+        -2.1742837266018333,
+        -0.7566543942835624
+      ],
+      "report_delta_a": -30.1114,
+      "report_delta_E": 31.0802
+    },
+    {
+      "sample_file": "IMG_8268.JPG",
+      "report_file": "IMG_8269.JPG",
+      "sample_before_rgb": [
+        183,
+        123,
+        157
+      ],
+      "sample_after_rgb": [
+        144,
+        153,
+        153
+      ],
+      "sample_before_lab": [
+        58.67,
+        28.5,
+        -8.68
+      ],
+      "sample_after_lab": [
+        62.52,
+        -3.22,
+        -1.12
+      ],
+      "sample_delta_a": -31.72,
+      "sample_delta_E": 32.835,
+      "sample_delta_L": 3.85,
+      "report_before_lab": [
+        56.88904823201888,
+        29.018833556742784,
+        -8.494574133589673
+      ],
+      "report_after_lab": [
+        60.07651340248961,
+        -2.1742837266018333,
+        -0.7566543942835624
+      ],
+      "report_delta_a": -31.1931,
+      "report_delta_E": 32.2962
+    },
+    {
+      "sample_file": "IMG_8270.JPG",
+      "report_file": "IMG_8271.JPG",
+      "sample_before_rgb": [
+        184,
+        126,
+        159
+      ],
+      "sample_after_rgb": [
+        144,
+        151,
+        152
+      ],
+      "sample_before_lab": [
+        59.54,
+        27.53,
+        -8.51
+      ],
+      "sample_after_lab": [
+        61.94,
+        -2.32,
+        -1.4
+      ],
+      "sample_delta_a": -29.85,
+      "sample_delta_E": 30.7788,
+      "sample_delta_L": 2.4,
+      "report_before_lab": [
+        51.1167896270988,
+        24.708876368322198,
+        -12.1869770672957
+      ],
+      "report_after_lab": [
+        53.27735958299604,
+        -2.740552554447495,
+        -4.6216185849375035
+      ],
+      "report_delta_a": -27.4494,
+      "report_delta_E": 28.5548
+    },
+    {
+      "sample_file": "IMG_8272.JPG",
+      "report_file": "IMG_8273.JPG",
+      "sample_before_rgb": [
+        168,
+        115,
+        145
+      ],
+      "sample_after_rgb": [
+        129,
+        137,
+        137
+      ],
+      "sample_before_lab": [
+        54.69,
+        25.56,
+        -7.84
+      ],
+      "sample_after_lab": [
+        56.45,
+        -2.92,
+        -1.01
+      ],
+      "sample_delta_a": -28.48,
+      "sample_delta_E": 29.3404,
+      "sample_delta_L": 1.76,
+      "report_before_lab": [
+        46.347675458157624,
+        23.410151609100648,
+        -11.204484725720242
+      ],
+      "report_after_lab": [
+        48.070263224377086,
+        -3.226511501580598,
+        -3.607646855260671
+      ],
+      "report_delta_a": -26.6367,
+      "report_delta_E": 27.7523
+    },
+    {
+      "sample_file": "IMG_8274.JPG",
+      "report_file": "IMG_8275.JPG",
+      "sample_before_rgb": [
+        170,
+        115,
+        151
+      ],
+      "sample_after_rgb": [
+        146,
+        156,
+        154
+      ],
+      "sample_before_lab": [
+        55.12,
+        27.32,
+        -10.67
+      ],
+      "sample_after_lab": [
+        63.52,
+        -3.97,
+        -0.19
+      ],
+      "sample_delta_a": -31.29,
+      "sample_delta_E": 34.0508,
+      "sample_delta_L": 8.4,
+      "report_before_lab": [
+        46.68254809204924,
+        24.91530856063995,
+        -14.28572358782716
+      ],
+      "report_after_lab": [
+        54.9164726737295,
+        -4.437690769943437,
+        -3.3455682560371347
+      ],
+      "report_delta_a": -29.353,
+      "report_delta_E": 32.3896
+    },
+    {
+      "sample_file": "IMG_8276.JPG",
+      "report_file": "IMG_8277.JPG",
+      "sample_before_rgb": [
+        146,
+        101,
+        130
+      ],
+      "sample_after_rgb": [
+        130,
+        138,
+        138
+      ],
+      "sample_before_lab": [
+        48.3,
+        22.88,
+        -8.8
+      ],
+      "sample_after_lab": [
+        56.84,
+        -2.92,
+        -1.01
+      ],
+      "sample_delta_a": -25.8,
+      "sample_delta_E": 28.2711,
+      "sample_delta_L": 8.54,
+      "report_before_lab": [
+        40.78112566674173,
+        19.86741026173086,
+        -11.332261083679118
+      ],
+      "report_after_lab": [
+        48.070263224377086,
+        -3.226511501580598,
+        -3.607646855260671
+      ],
+      "report_delta_a": -23.0939,
+      "report_delta_E": 25.4191
+    },
+    {
+      "sample_file": "IMG_8278.JPG",
+      "report_file": "IMG_8279.JPG",
+      "sample_before_rgb": [
+        162,
+        112,
+        146
+      ],
+      "sample_after_rgb": [
+        145,
+        153,
+        153
+      ],
+      "sample_before_lab": [
+        53.33,
+        25.27,
+        -10.53
+      ],
+      "sample_after_lab": [
+        62.59,
+        -2.87,
+        -0.99
+      ],
+      "sample_delta_a": -28.14,
+      "sample_delta_E": 31.1226,
+      "sample_delta_L": 9.26,
+      "report_before_lab": [
+        45.164080781790545,
+        22.406721605232384,
+        -13.06033271669218
+      ],
+      "report_after_lab": [
+        53.27735958299604,
+        -2.740552554447495,
+        -4.6216185849375035
+      ],
+      "report_delta_a": -25.1473,
+      "report_delta_E": 27.7385
+    },
+    {
+      "sample_file": "IMG_8280.JPG",
+      "report_file": "IMG_8281.JPG",
+      "sample_before_rgb": [
+        151,
+        106,
+        136
+      ],
+      "sample_after_rgb": [
+        137,
+        146,
+        145
+      ],
+      "sample_before_lab": [
+        50.29,
+        22.91,
+        -9.32
+      ],
+      "sample_after_lab": [
+        59.82,
+        -3.45,
+        -0.6
+      ],
+      "sample_delta_a": -26.36,
+      "sample_delta_E": 29.3549,
+      "sample_delta_L": 9.53,
+      "report_before_lab": [
+        42.74225574233146,
+        21.07814147464293,
+        -12.577473015257068
+      ],
+      "report_after_lab": [
+        50.853709499329,
+        -3.2009171496682476,
+        -3.5736187934701347
+      ],
+      "report_delta_a": -24.2791,
+      "report_delta_E": 27.1355
+    },
+    {
+      "sample_file": "IMG_8282.JPG",
+      "report_file": "IMG_8283.JPG",
+      "sample_before_rgb": [
+        146,
+        102,
+        130
+      ],
+      "sample_after_rgb": [
+        132,
+        139,
+        139
+      ],
+      "sample_before_lab": [
+        48.54,
+        22.3,
+        -8.43
+      ],
+      "sample_after_lab": [
+        57.3,
+        -2.56,
+        -0.89
+      ],
+      "sample_delta_a": -24.86,
+      "sample_delta_E": 27.4155,
+      "sample_delta_L": 8.76,
+      "report_before_lab": [
+        40.85612146484488,
+        20.270492642092435,
+        -12.44640084566081
+      ],
+      "report_after_lab": [
+        48.655283330551626,
+        -2.277976755215072,
+        -3.9040414253555644
+      ],
+      "report_delta_a": -22.5485,
+      "report_delta_E": 25.3423
+    },
+    {
+      "sample_file": "IMG_8284.JPG",
+      "report_file": "IMG_8285.JPG",
+      "sample_before_rgb": [
+        151,
+        104,
+        134
+      ],
+      "sample_after_rgb": [
+        136,
+        142,
+        142
+      ],
+      "sample_before_lab": [
+        49.74,
+        23.7,
+        -8.96
+      ],
+      "sample_after_lab": [
+        58.54,
+        -2.18,
+        -0.76
+      ],
+      "sample_delta_a": -25.88,
+      "sample_delta_E": 28.5386,
+      "sample_delta_L": 8.8,
+      "report_before_lab": [
+        41.93510068184378,
+        21.141681074131697,
+        -12.603236842502252
+      ],
+      "report_after_lab": [
+        50.24625877485764,
+        -2.268353994098915,
+        -3.882139098038251
+      ],
+      "report_delta_a": -23.41,
+      "report_delta_E": 26.328
+    },
+    {
+      "sample_file": "IMG_8286.JPG",
+      "report_file": "IMG_8287.JPG",
+      "sample_before_rgb": [
+        131,
+        92,
+        118
+      ],
+      "sample_after_rgb": [
+        117,
+        124,
+        126
+      ],
+      "sample_before_lab": [
+        43.93,
+        20.37,
+        -8.3
+      ],
+      "sample_after_lab": [
+        51.5,
+        -2.18,
+        -1.99
+      ],
+      "sample_delta_a": -22.55,
+      "sample_delta_E": 24.6094,
+      "sample_delta_L": 7.57,
+      "report_before_lab": [
+        36.84380196592377,
+        17.84179579085954,
+        -11.241174510774032
+      ],
+      "report_after_lab": [
+        44.29235915838504,
+        -1.8452584006567463,
+        -5.080134718369278
+      ],
+      "report_delta_a": -19.6871,
+      "report_delta_E": 21.9322
+    },
+    {
+      "sample_file": "IMG_8288.JPG",
+      "report_file": "IMG_8289.JPG",
+      "sample_before_rgb": [
+        144,
+        100,
+        128
+      ],
+      "sample_after_rgb": [
+        129,
+        135,
+        135
+      ],
+      "sample_before_lab": [
+        47.76,
+        22.36,
+        -8.44
+      ],
+      "sample_after_lab": [
+        55.83,
+        -2.2,
+        -0.77
+      ],
+      "sample_delta_a": -24.56,
+      "sample_delta_E": 26.9657,
+      "sample_delta_L": 8.07,
+      "report_before_lab": [
+        40.449406664015925,
+        20.302324091264367,
+        -12.46003333069785
+      ],
+      "report_after_lab": [
+        47.85615010363081,
+        -2.28285980355436,
+        -3.915273367553862
+      ],
+      "report_delta_a": -22.5852,
+      "report_delta_E": 25.2579
+    },
+    {
+      "sample_file": "IMG_8290.JPG",
+      "report_file": "IMG_8291.JPG",
+      "sample_before_rgb": [
+        183,
+        124,
+        156
+      ],
+      "sample_after_rgb": [
+        135,
+        147,
+        146
+      ],
+      "sample_before_lab": [
+        58.87,
+        27.78,
+        -7.81
+      ],
+      "sample_after_lab": [
+        59.97,
+        -4.51,
+        -0.95
+      ],
+      "sample_delta_a": -32.29,
+      "sample_delta_E": 33.029,
+      "sample_delta_L": 1.1,
+      "report_before_lab": [
+        50.65771046066189,
+        24.369936916721347,
+        -11.118699554669176
+      ],
+      "report_after_lab": [
+        50.97969027571956,
+        -4.388615287449826,
+        -4.587452907756617
+      ],
+      "report_delta_a": -28.7586,
+      "report_delta_E": 29.4926
+    },
+    {
+      "sample_file": "IMG_8292.JPG",
+      "report_file": "IMG_8293.JPG",
+      "sample_before_rgb": [
+        187,
+        126,
+        160
+      ],
+      "sample_after_rgb": [
+        137,
+        148,
+        148
+      ],
+      "sample_before_lab": [
+        59.91,
+        28.77,
+        -8.5
+      ],
+      "sample_after_lab": [
+        60.46,
+        -3.95,
+        -1.36
+      ],
+      "sample_delta_a": -32.72,
+      "sample_delta_E": 33.4945,
+      "sample_delta_L": 0.55,
+      "report_before_lab": [
+        51.494217255695446,
+        25.964860356401832,
+        -12.17355532264628
+      ],
+      "report_after_lab": [
+        51.55371580603388,
+        -3.4565906523110757,
+        -4.88614545556405
+      ],
+      "report_delta_a": -29.4215,
+      "report_delta_E": 30.3106
+    },
+    {
+      "sample_file": "IMG_8294.JPG",
+      "report_file": "IMG_8295.JPG",
+      "sample_before_rgb": [
+        172,
+        122,
+        154
+      ],
+      "sample_after_rgb": [
+        136,
+        141,
+        144
+      ],
+      "sample_before_lab": [
+        57.1,
+        24.61,
+        -9.42
+      ],
+      "sample_after_lab": [
+        58.32,
+        -1.22,
+        -2.23
+      ],
+      "sample_delta_a": -25.83,
+      "sample_delta_E": 26.8398,
+      "sample_delta_L": 1.22,
+      "report_before_lab": [
+        48.730137152386746,
+        22.130478082140915,
+        -12.951327289148985
+      ],
+      "report_after_lab": [
+        50.122902811609094,
+        -2.7612265141944703,
+        -4.670991712902861
+      ],
+      "report_delta_a": -24.8917,
+      "report_delta_E": 26.2698
+    },
+    {
+      "sample_file": "IMG_8296.JPG",
+      "report_file": "IMG_8297.JPG",
+      "sample_before_rgb": [
+        154,
+        109,
+        136
+      ],
+      "sample_after_rgb": [
+        121,
+        126,
+        128
+      ],
+      "sample_before_lab": [
+        51.37,
+        22.28,
+        -7.68
+      ],
+      "sample_after_lab": [
+        52.45,
+        -1.45,
+        -1.73
+      ],
+      "sample_delta_a": -23.73,
+      "sample_delta_E": 24.4884,
+      "sample_delta_L": 1.08,
+      "report_before_lab": [
+        43.210070921956635,
+        19.684131642102198,
+        -11.261535991377315
+      ],
+      "report_after_lab": [
+        44.41934112261796,
+        -1.3442850619097002,
+        -4.2714029754573835
+      ],
+      "report_delta_a": -21.0284,
+      "report_delta_E": 22.1928
+    },
+    {
+      "sample_file": "IMG_8316.JPG",
+      "report_file": "IMG_8317.JPG",
+      "sample_before_rgb": [
+        138,
+        95,
+        138
+      ],
+      "sample_after_rgb": [
+        169,
+        174,
+        170
+      ],
+      "sample_before_lab": [
+        46.21,
+        25.03,
+        -16.84
+      ],
+      "sample_after_lab": [
+        70.6,
+        -2.52,
+        1.43
+      ],
+      "sample_delta_a": -27.55,
+      "sample_delta_E": 41.0812,
+      "sample_delta_L": 24.39,
+      "report_before_lab": [
+        39.8283405667616,
+        23.291521431387046,
+        -18.95443157212836
+      ],
+      "report_after_lab": [
+        60.74366096003533,
+        -2.477370495086617,
+        -2.0531201254653464
+      ],
+      "report_delta_a": -25.7689,
+      "report_delta_E": 37.2443
+    },
+    {
+      "sample_file": "IMG_8324.JPG",
+      "report_file": "IMG_8325.JPG",
+      "sample_before_rgb": [
+        168,
+        117,
+        164
+      ],
+      "sample_after_rgb": [
+        170,
+        176,
+        171
+      ],
+      "sample_before_lab": [
+        55.82,
+        27.87,
+        -17.18
+      ],
+      "sample_after_lab": [
+        71.24,
+        -3.06,
+        1.82
+      ],
+      "sample_delta_a": -30.93,
+      "sample_delta_E": 39.4391,
+      "sample_delta_L": 15.42,
+      "report_before_lab": [
+        48.737761391736896,
+        25.923650425335566,
+        -20.646492775580505
+      ],
+      "report_after_lab": [
+        62.0890948838058,
+        -3.3758204793475355,
+        -1.7607717547756696
+      ],
+      "report_delta_a": -29.2995,
+      "report_delta_E": 37.3281
+    },
+    {
+      "sample_file": "IMG_8334.JPG",
+      "report_file": "IMG_8335.JPG",
+      "sample_before_rgb": [
+        174,
+        128,
+        176
+      ],
+      "sample_after_rgb": [
+        199,
+        203,
+        196
+      ],
+      "sample_before_lab": [
+        59.5,
+        26.02,
+        -18.41
+      ],
+      "sample_after_lab": [
+        81.2,
+        -2.65,
+        3.01
+      ],
+      "sample_delta_a": -28.67,
+      "sample_delta_E": 41.853,
+      "sample_delta_L": 21.7,
+      "report_before_lab": [
+        52.435424013601306,
+        25.216427174285517,
+        -22.526211400178987
+      ],
+      "report_after_lab": [
+        72.48101207214974,
+        -2.0970028523142337,
+        -0.7312986540834121
+      ],
+      "report_delta_a": -27.3134,
+      "report_delta_E": 40.2848
+    },
+    {
+      "sample_file": "IMG_8348.JPG",
+      "report_file": "IMG_8349.JPG",
+      "sample_before_rgb": [
+        152,
+        108,
+        156
+      ],
+      "sample_after_rgb": [
+        181,
+        185,
+        178
+      ],
+      "sample_before_lab": [
+        51.61,
+        25.96,
+        -19.1
+      ],
+      "sample_after_lab": [
+        74.66,
+        -2.69,
+        3.06
+      ],
+      "sample_delta_a": -28.65,
+      "sample_delta_E": 42.9324,
+      "sample_delta_L": 23.05,
+      "report_before_lab": [
+        43.49421468390372,
+        23.612239002878955,
+        -22.341188507357135
+      ],
+      "report_after_lab": [
+        65.5167059437697,
+        -3.3932874823447423,
+        -0.5874456777835046
+      ],
+      "report_delta_a": -27.0055,
+      "report_delta_E": 41.0794
+    },
+    {
+      "sample_file": "IMG_8355.JPG",
+      "report_file": "IMG_8356.JPG",
+      "sample_before_rgb": [
+        134,
+        98,
+        142
+      ],
+      "sample_after_rgb": [
+        178,
+        183,
+        176
+      ],
+      "sample_before_lab": [
+        46.65,
+        22.71,
+        -18.58
+      ],
+      "sample_after_lab": [
+        73.85,
+        -3.05,
+        2.95
+      ],
+      "sample_delta_a": -25.76,
+      "sample_delta_E": 43.2083,
+      "sample_delta_L": 27.2,
+      "report_before_lab": [
+        39.184660492613936,
+        19.915534735007732,
+        -20.02120081039449
+      ],
+      "report_after_lab": [
+        65.13985091930932,
+        -3.3970246120064163,
+        -0.5879411991414951
+      ],
+      "report_delta_a": -23.3126,
+      "report_delta_E": 39.9349
+    },
+    {
+      "sample_file": "IMG_8367.JPG",
+      "report_file": "IMG_8368.JPG",
+      "sample_before_rgb": [
+        166,
+        120,
+        163
+      ],
+      "sample_after_rgb": [
+        172,
+        126,
+        170
+      ],
+      "sample_before_lab": [
+        56.27,
+        25.29,
+        -15.93
+      ],
+      "sample_after_lab": [
+        58.6,
+        25.31,
+        -16.37
+      ],
+      "sample_delta_a": 0.02,
+      "sample_delta_E": 2.3713,
+      "sample_delta_L": 2.33,
+      "report_before_lab": [
+        48.96512297787622,
+        23.867304850392067,
+        -19.72532947093031
+      ],
+      "report_after_lab": [
+        48.99497393918894,
+        23.79168581120633,
+        -18.487735226709834
+      ],
+      "report_delta_a": -0.0756,
+      "report_delta_E": 1.2403
+    },
+    {
+      "sample_file": "IMG_8369.JPG",
+      "report_file": "IMG_8370.JPG",
+      "sample_before_rgb": [
+        165,
+        115,
+        157
+      ],
+      "sample_after_rgb": [
+        170,
+        120,
+        163
+      ],
+      "sample_before_lab": [
+        54.76,
+        26.64,
+        -14.76
+      ],
+      "sample_after_lab": [
+        56.71,
+        26.68,
+        -15.23
+      ],
+      "sample_delta_a": 0.04,
+      "sample_delta_E": 2.0062,
+      "sample_delta_L": 1.95,
+      "report_before_lab": [
+        47.60180565519663,
+        24.4069696307615,
+        -17.67134903324028
+      ],
+      "report_after_lab": [
+        48.389704915876706,
+        24.34175861460208,
+        -17.635885200814137
+      ],
+      "report_delta_a": -0.0652,
+      "report_delta_E": 0.7914
+    },
+    {
+      "sample_file": "IMG_8371.JPG",
+      "report_file": "IMG_8372.JPG",
+      "sample_before_rgb": [
+        163,
+        117,
+        159
+      ],
+      "sample_after_rgb": [
+        169,
+        122,
+        166
+      ],
+      "sample_before_lab": [
+        55.09,
+        25.19,
+        -15.45
+      ],
+      "sample_after_lab": [
+        57.18,
+        25.77,
+        -16.25
+      ],
+      "sample_delta_a": 0.58,
+      "sample_delta_E": 2.3118,
+      "sample_delta_L": 2.09,
+      "report_before_lab": [
+        46.76355558668255,
+        23.053048187256454,
+        -18.40694608594873
+      ],
+      "report_after_lab": [
+        48.177988603057756,
+        23.932659081204342,
+        -19.76783703253071
+      ],
+      "report_delta_a": 0.8796,
+      "report_delta_E": 2.1509
+    },
+    {
+      "sample_file": "IMG_8373.JPG",
+      "report_file": "IMG_8374.JPG",
+      "sample_before_rgb": [
+        143,
+        94,
+        134
+      ],
+      "sample_after_rgb": [
+        172,
+        178,
+        174
+      ],
+      "sample_before_lab": [
+        46.4,
+        26.59,
+        -14.09
+      ],
+      "sample_after_lab": [
+        72.01,
+        -2.86,
+        1.31
+      ],
+      "sample_delta_a": -29.45,
+      "sample_delta_E": 41.9563,
+      "sample_delta_L": 25.61,
+      "report_before_lab": [
+        39.92850062028854,
+        24.651211291417507,
+        -16.919683049712162
+      ],
+      "report_after_lab": [
+        63.22899418205323,
+        -3.3647943595482843,
+        -1.7551993479363537
+      ],
+      "report_delta_a": -28.016,
+      "report_delta_E": 39.4686
+    },
+    {
+      "sample_file": "IMG_8375.JPG",
+      "report_file": "IMG_8376.JPG",
+      "sample_before_rgb": [
+        178,
+        123,
+        170
+      ],
+      "sample_after_rgb": [
+        205,
+        211,
+        207
+      ],
+      "sample_before_lab": [
+        58.54,
+        29.05,
+        -16.4
+      ],
+      "sample_after_lab": [
+        84.0,
+        -2.77,
+        1.26
+      ],
+      "sample_delta_a": -31.82,
+      "sample_delta_E": 44.414,
+      "sample_delta_L": 25.46,
+      "report_before_lab": [
+        51.48350221527356,
+        26.87529344259093,
+        -19.28405731800824
+      ],
+      "report_after_lab": [
+        75.54372902180324,
+        -3.0607746795511814,
+        -2.2037575431505196
+      ],
+      "report_delta_a": -29.9361,
+      "report_delta_E": 42.0333
+    },
+    {
+      "sample_file": "IMG_8380.JPG",
+      "report_file": "IMG_8381.JPG",
+      "sample_before_rgb": [
+        169,
+        114,
+        161
+      ],
+      "sample_after_rgb": [
+        189,
+        195,
+        190
+      ],
+      "sample_before_lab": [
+        55.12,
+        29.34,
+        -16.5
+      ],
+      "sample_after_lab": [
+        78.21,
+        -3.0,
+        1.79
+      ],
+      "sample_delta_a": -32.34,
+      "sample_delta_E": 43.7441,
+      "sample_delta_L": 23.09,
+      "report_before_lab": [
+        48.24144134313684,
+        28.0626123432689,
+        -19.602603725982327
+      ],
+      "report_after_lab": [
+        70.5340973743463,
+        -2.4114810788341545,
+        -1.9965983988101454
+      ],
+      "report_delta_a": -30.4741,
+      "report_delta_E": 41.6606
+    },
+    {
+      "sample_file": "IMG_8382.JPG",
+      "report_file": "IMG_8383.JPG",
+      "sample_before_rgb": [
+        168,
+        112,
+        159
+      ],
+      "sample_after_rgb": [
+        187,
+        192,
+        188
+      ],
+      "sample_before_lab": [
+        54.47,
+        29.75,
+        -16.33
+      ],
+      "sample_after_lab": [
+        77.22,
+        -2.47,
+        1.41
+      ],
+      "sample_delta_a": -32.22,
+      "sample_delta_E": 43.2481,
+      "sample_delta_L": 22.75,
+      "report_before_lab": [
+        47.45765996625926,
+        28.13287093340444,
+        -19.637005782277473
+      ],
+      "report_after_lab": [
+        69.79113015310014,
+        -2.416192860274058,
+        -2.0006259708210017
+      ],
+      "report_delta_a": -30.5491,
+      "report_delta_E": 41.7501
+    },
+    {
+      "sample_file": "IMG_8384.JPG",
+      "report_file": "IMG_8385.JPG",
+      "sample_before_rgb": [
+        160,
+        105,
+        151
+      ],
+      "sample_after_rgb": [
+        180,
+        186,
+        181
+      ],
+      "sample_before_lab": [
+        51.62,
+        29.45,
+        -16.06
+      ],
+      "sample_after_lab": [
+        74.92,
+        -3.02,
+        1.8
+      ],
+      "sample_delta_a": -32.47,
+      "sample_delta_E": 43.7741,
+      "sample_delta_L": 23.3,
+      "report_before_lab": [
+        44.33872763707181,
+        27.0913988674949,
+        -18.526869647414344
+      ],
+      "report_after_lab": [
+        67.37445657456044,
+        -3.3260961196357464,
+        -1.735616682212715
+      ],
+      "report_delta_a": -30.4175,
+      "report_delta_E": 41.6871
+    },
+    {
+      "sample_file": "IMG_8386.JPG",
+      "report_file": "IMG_8387.JPG",
+      "sample_before_rgb": [
+        141,
+        90,
+        134
+      ],
+      "sample_after_rgb": [
+        170,
+        174,
+        169
+      ],
+      "sample_before_lab": [
+        45.22,
+        28.2,
+        -15.92
+      ],
+      "sample_after_lab": [
+        70.65,
+        -2.35,
+        2.07
+      ],
+      "sample_delta_a": -30.55,
+      "sample_delta_E": 43.6306,
+      "sample_delta_L": 25.43,
+      "report_before_lab": [
+        38.71912494597771,
+        26.330203763195172,
+        -18.79906324623346
+      ],
+      "report_after_lab": [
+        62.48946432441507,
+        -3.4238909306527066,
+        -0.5914711936650718
+      ],
+      "report_delta_a": -29.7541,
+      "report_delta_E": 42.212
+    },
+    {
+      "sample_file": "IMG_8388.JPG",
+      "report_file": "IMG_8389.JPG",
+      "sample_before_rgb": [
+        133,
+        84,
+        128
+      ],
+      "sample_after_rgb": [
+        162,
+        167,
+        162
+      ],
+      "sample_before_lab": [
+        42.59,
+        27.71,
+        -16.38
+      ],
+      "sample_after_lab": [
+        67.97,
+        -2.73,
+        1.96
+      ],
+      "sample_delta_a": -30.44,
+      "sample_delta_E": 43.6703,
+      "sample_delta_L": 25.38,
+      "report_before_lab": [
+        36.150246160504466,
+        26.21651142933812,
+        -19.115157298802643
+      ],
+      "report_after_lab": [
+        58.825840860085876,
+        -2.491323124557965,
+        -2.0651494408711057
+      ],
+      "report_delta_a": -28.7078,
+      "report_delta_E": 40.3612
+    },
+    {
+      "sample_file": "IMG_8399.JPG",
+      "report_file": "IMG_8400.JPG",
+      "sample_before_rgb": [
+        192,
+        135,
+        184
+      ],
+      "sample_after_rgb": [
+        217,
+        222,
+        217
+      ],
+      "sample_before_lab": [
+        63.34,
+        29.73,
+        -16.95
+      ],
+      "sample_after_lab": [
+        87.97,
+        -2.59,
+        1.86
+      ],
+      "sample_delta_a": -32.32,
+      "sample_delta_E": 44.7776,
+      "sample_delta_L": 24.63,
+      "report_before_lab": [
+        55.672286431072834,
+        27.82555639041051,
+        -20.32213408920882
+      ],
+      "report_after_lab": [
+        79.69335569034007,
+        -2.35678967263131,
+        -1.9499899102563223
+      ],
+      "report_delta_a": -30.1823,
+      "report_delta_E": 42.7261
+    },
+    {
+      "sample_file": "IMG_8480.JPG",
+      "report_file": "IMG_8481.JPG",
+      "sample_before_rgb": [
+        185,
+        140,
+        174
+      ],
+      "sample_after_rgb": [
+        115,
+        125,
+        122
+      ],
+      "sample_before_lab": [
+        63.45,
+        22.72,
+        -11.2
+      ],
+      "sample_after_lab": [
+        51.52,
+        -4.33,
+        0.36
+      ],
+      "sample_delta_a": -27.05,
+      "sample_delta_E": 31.7437,
+      "sample_delta_L": -11.93,
+      "report_before_lab": [
+        56.368863196746005,
+        21.253836087736786,
+        -14.104167518366806
+      ],
+      "report_after_lab": [
+        44.65219802751728,
+        -4.528179518684228,
+        -1.5450716874702008
+      ],
+      "report_delta_a": -25.782,
+      "report_delta_E": 30.9794
+    },
+    {
+      "sample_file": "IMG_8482.JPG",
+      "report_file": "IMG_8483.JPG",
+      "sample_before_rgb": [
+        165,
+        118,
+        151
+      ],
+      "sample_after_rgb": [
+        131,
+        141,
+        138
+      ],
+      "sample_before_lab": [
+        55.27,
+        23.83,
+        -10.5
+      ],
+      "sample_after_lab": [
+        57.76,
+        -4.24,
+        0.35
+      ],
+      "sample_delta_a": -28.07,
+      "sample_delta_E": 30.1968,
+      "sample_delta_L": 2.49,
+      "report_before_lab": [
+        49.1237320526064,
+        22.10078357924766,
+        -12.939359006498785
+      ],
+      "report_after_lab": [
+        49.346902573114306,
+        -4.955319276872483,
+        -2.310005228010592
+      ],
+      "report_delta_a": -27.0561,
+      "report_delta_E": 29.07
+    },
+    {
+      "sample_file": "IMG_8527.JPG",
+      "report_file": "IMG_8528.JPG",
+      "sample_before_rgb": [
+        213,
+        132,
+        176
+      ],
+      "sample_after_rgb": [
+        123,
+        141,
+        143
+      ],
+      "sample_before_lab": [
+        64.79,
+        37.16,
+        -10.0
+      ],
+      "sample_after_lab": [
+        57.31,
+        -6.01,
+        -3.25
+      ],
+      "sample_delta_a": -43.17,
+      "sample_delta_E": 44.3301,
+      "sample_delta_L": -7.48,
+      "report_before_lab": [
+        55.197446635244305,
+        34.27917699765387,
+        -15.11403018959383
+      ],
+      "report_after_lab": [
+        49.13698288784501,
+        -5.56167683397657,
+        -5.615377277393407
+      ],
+      "report_delta_a": -39.8409,
+      "report_delta_E": 41.4035
+    },
+    {
+      "sample_file": "IMG_8529.JPG",
+      "report_file": "IMG_8530.JPG",
+      "sample_before_rgb": [
+        200,
+        128,
+        174
+      ],
+      "sample_after_rgb": [
+        99,
+        143,
+        135
+      ],
+      "sample_before_lab": [
+        62.32,
+        34.53,
+        -12.73
+      ],
+      "sample_after_lab": [
+        56.13,
+        -16.84,
+        -0.56
+      ],
+      "sample_delta_a": -51.37,
+      "sample_delta_E": 53.1536,
+      "sample_delta_L": -6.19,
+      "report_before_lab": [
+        54.47727888676313,
+        32.23259501947795,
+        -16.274293291478735
+      ],
+      "report_after_lab": [
+        50.20384647616828,
+        -14.943532191823373,
+        -3.5586449695838684
+      ],
+      "report_delta_a": -47.1761,
+      "report_delta_E": 49.0463
+    },
+    {
+      "sample_file": "IMG_8531.JPG",
+      "report_file": "IMG_8532.JPG",
+      "sample_before_rgb": [
+        187,
+        120,
+        163
+      ],
+      "sample_after_rgb": [
+        89,
+        136,
+        125
+      ],
+      "sample_before_lab": [
+        58.64,
+        32.57,
+        -12.12
+      ],
+      "sample_after_lab": [
+        53.18,
+        -18.57,
+        0.83
+      ],
+      "sample_delta_a": -51.14,
+      "sample_delta_E": 53.036,
+      "sample_delta_L": -5.46,
+      "report_before_lab": [
+        49.45804935801206,
+        30.18541840389638,
+        -16.46321417161769
+      ],
+      "report_after_lab": [
+        47.922901518800046,
+        -17.16692698920491,
+        -1.0683022217411464
+      ],
+      "report_delta_a": -47.3523,
+      "report_delta_E": 49.8157
+    }
+  ]
+}

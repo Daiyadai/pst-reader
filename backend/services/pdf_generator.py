@@ -11,6 +11,20 @@ from reportlab.lib.colors import HexColor
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, Image as RLImage
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+
+# Register Chinese/CJK font
+FONT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "fonts")
+FONT_PATH = os.path.join(FONT_DIR, "NotoSansSC-Regular.ttf")
+CJK_FONT = "Helvetica"  # fallback
+
+if os.path.exists(FONT_PATH):
+    try:
+        pdfmetrics.registerFont(TTFont("NotoSansSC", FONT_PATH))
+        CJK_FONT = "NotoSansSC"
+    except Exception:
+        pass
 
 
 NAVY = HexColor("#1a2744")
@@ -147,6 +161,10 @@ def generate_report_pdf(test_data: dict, before_img_path: str, after_img_path: s
     """
     s = PDF_STRINGS.get(lang, PDF_STRINGS["en"])
 
+    # Use CJK font for Chinese, Helvetica for others
+    font = CJK_FONT if lang == "zh" else "Helvetica"
+    font_bold = CJK_FONT if lang == "zh" else "Helvetica-Bold"
+
     buffer = io.BytesIO()
     doc = SimpleDocTemplate(
         buffer,
@@ -161,23 +179,23 @@ def generate_report_pdf(test_data: dict, before_img_path: str, after_img_path: s
 
     title_style = ParagraphStyle(
         "CustomTitle", parent=styles["Title"],
-        fontSize=22, leading=26, textColor=NAVY, spaceAfter=4,
+        fontName=font_bold, fontSize=22, leading=26, textColor=NAVY, spaceAfter=4,
     )
     subtitle_style = ParagraphStyle(
         "Subtitle", parent=styles["Normal"],
-        fontSize=11, textColor=NAVY_LIGHT, spaceAfter=12,
+        fontName=font, fontSize=11, textColor=NAVY_LIGHT, spaceAfter=12,
     )
     heading_style = ParagraphStyle(
         "SectionHead", parent=styles["Heading2"],
-        fontSize=13, textColor=NAVY, spaceBefore=10, spaceAfter=6,
+        fontName=font_bold, fontSize=13, textColor=NAVY, spaceBefore=10, spaceAfter=6,
     )
     normal_style = ParagraphStyle(
         "CustomNormal", parent=styles["Normal"],
-        fontSize=10, textColor=HexColor("#374151"),
+        fontName=font, fontSize=10, textColor=HexColor("#374151"),
     )
     big_value_style = ParagraphStyle(
         "BigValue", parent=styles["Normal"],
-        fontSize=32, leading=38, textColor=NAVY,
+        fontName=font_bold, fontSize=32, leading=38, textColor=NAVY,
         alignment=TA_CENTER, spaceBefore=10, spaceAfter=10,
     )
 
@@ -201,7 +219,8 @@ def generate_report_pdf(test_data: dict, before_img_path: str, after_img_path: s
     info_table = Table(info_data, colWidths=[70, 350])
     info_table.setStyle(TableStyle([
         ("TEXTCOLOR", (0, 0), (0, -1), NAVY),
-        ("FONTNAME", (0, 0), (0, -1), "Helvetica-Bold"),
+        ("FONTNAME", (0, 0), (0, -1), font_bold),
+        ("FONTNAME", (1, 0), (1, -1), font),
         ("FONTSIZE", (0, 0), (-1, -1), 9),
         ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
@@ -221,7 +240,7 @@ def generate_report_pdf(test_data: dict, before_img_path: str, after_img_path: s
 
     status_style = ParagraphStyle(
         "StatusLabel", parent=styles["Normal"],
-        fontSize=14, leading=18, textColor=status_color,
+        fontName=font, fontSize=14, leading=18, textColor=status_color,
         alignment=TA_CENTER, spaceBefore=2, spaceAfter=12,
     )
     elements.append(Paragraph(f"{s['pstValue']} &mdash; {label}", status_style))
@@ -243,7 +262,7 @@ def generate_report_pdf(test_data: dict, before_img_path: str, after_img_path: s
     img_table = Table(img_table_data, colWidths=[75 * mm, 75 * mm])
     img_table.setStyle(TableStyle([
         ("ALIGN", (0, 0), (-1, -1), "CENTER"),
-        ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+        ("FONTNAME", (0, 0), (-1, 0), font_bold),
         ("FONTSIZE", (0, 0), (-1, 0), 9),
         ("TEXTCOLOR", (0, 0), (-1, 0), NAVY),
         ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
@@ -277,8 +296,9 @@ def generate_report_pdf(test_data: dict, before_img_path: str, after_img_path: s
 
     color_table = Table(color_data, colWidths=[70, 170, 170])
     color_table.setStyle(TableStyle([
-        ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
-        ("FONTNAME", (0, 0), (0, -1), "Helvetica-Bold"),
+        ("FONTNAME", (0, 0), (-1, 0), font_bold),
+        ("FONTNAME", (0, 0), (0, -1), font_bold),
+        ("FONTNAME", (1, 1), (-1, -1), font),
         ("TEXTCOLOR", (0, 0), (-1, 0), WHITE),
         ("BACKGROUND", (0, 0), (-1, 0), NAVY),
         ("FONTSIZE", (0, 0), (-1, -1), 9),
@@ -293,7 +313,7 @@ def generate_report_pdf(test_data: dict, before_img_path: str, after_img_path: s
     # Footer
     elements.append(Spacer(1, 15))
     footer_style = ParagraphStyle(
-        "Footer", parent=styles["Normal"], fontSize=8, textColor=GRAY, alignment=TA_CENTER
+        "Footer", parent=styles["Normal"], fontName=font, fontSize=8, textColor=GRAY, alignment=TA_CENTER
     )
     elements.append(Paragraph(
         f"{s['footer']} &mdash; {datetime.now().strftime('%Y-%m-%d %H:%M')}",

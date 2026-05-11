@@ -11,7 +11,12 @@ import io
 from ..services.image_processor import analyze_image, analyze_combined_image
 from ..services.color_science import srgb_to_lab, compute_deltas
 from ..services.pst_calculator import get_calculator
-from ..services.white_balance import apply_white_balance, auto_white_balance
+from ..services.white_balance import (
+    apply_white_balance,
+    auto_white_balance,
+    paper_anchored_white_balance,
+)
+from ..services.image_pipeline import run_pipeline
 from ..database import get_db
 
 router = APIRouter(prefix="/api", tags=["analysis"])
@@ -43,8 +48,11 @@ async def analyze(
 ):
     """Analyze before/after images and return PST result.
 
-    white_balance options: "none", "auto", "manual"
-    If "manual", wb_ref_x/wb_ref_y specify the white reference point.
+    white_balance options:
+      "none"   - no correction (default; matches model's training calibration)
+      "paper"  - paper-anchored (opt-in; needs model retraining to use safely)
+      "auto"   - legacy gray-world (DESTROYS purple signal — kept for back-compat)
+      "manual" - use wb_ref_x/wb_ref_y as a click-selected white point
     """
     try:
         before_bytes = await before_image.read()
@@ -56,7 +64,10 @@ async def analyze(
         raise HTTPException(status_code=400, detail=f"Invalid image: {str(e)}")
 
     # Apply white balance if requested
-    if white_balance == "auto":
+    if white_balance == "paper":
+        before_img = paper_anchored_white_balance(before_img)
+        after_img = paper_anchored_white_balance(after_img)
+    elif white_balance == "auto":
         before_img = auto_white_balance(before_img)
         after_img = auto_white_balance(after_img)
     elif white_balance == "manual" and wb_ref_x > 0 and wb_ref_y > 0:
@@ -154,6 +165,9 @@ async def analyze_combined(
     """Analyze a single combined image (before on left, after on right).
 
     The image is automatically split down the middle into before/after halves.
+    Default white_balance is "none" — matches the model's training calibration.
+    "paper" mode (paper-anchored WB) is implemented but requires the model
+    to be retrained on paper-WB-applied features before defaulting on.
     """
     try:
         image_bytes = await image.read()
@@ -166,7 +180,10 @@ async def analyze_combined(
     before_img = combined_img.crop((0, 0, w // 2, h))
     after_img = combined_img.crop((w // 2, 0, w, h))
 
-    if white_balance == "auto":
+    if white_balance == "paper":
+        before_img = paper_anchored_white_balance(before_img)
+        after_img = paper_anchored_white_balance(after_img)
+    elif white_balance == "auto":
         before_img = auto_white_balance(before_img)
         after_img = auto_white_balance(after_img)
 
@@ -235,6 +252,115 @@ async def analyze_combined(
         "deltas": result["deltas"],
         "before_image_url": f"/uploads/{before_filename}",
         "after_image_url": f"/uploads/{after_filename}",
+        "location": location or None,
+        "notes": notes or None,
+        "created_at": datetime.now().isoformat(),
+    }
+
+
+@router.post("/validate-and-prepare")
+async def validate_and_prepare(
+    image: UploadFile = File(...),
+    user_id: int = Form(default=1),
+    location: str = Form(default=""),
+    notes: str = Form(default=""),
+    apply_auto_wb: bool = Form(default=False),
+):
+    """Run the full Lightroom-style pre-processing pipeline.
+
+    1. Upscale if needed
+    2. Detect the two bottles
+    3. Auto-crop to canonical 4:3 around them
+    4. Run quality checks (brightness, sharpness, dimensions)
+    5. (Optional, off by default) conservatively auto-white-balance using a
+       clean neutral reference OUTSIDE the bottle regions. Disabled by default
+       because real-field testing on Hefei 利乐冠 3次 showed it over-corrects
+       (PST 0.26 vs puriSCOPE truth 0.18). Can be re-enabled per-request.
+    6. If approved, run analysis on the prepared image and return PST.
+       If rejected, return reason + detail for retake guidance.
+    """
+    try:
+        raw = await image.read()
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Cannot read upload: {e}")
+
+    result = run_pipeline(raw, apply_auto_wb=apply_auto_wb)
+
+    if not result.approved:
+        return {
+            "approved": False,
+            "reject_reason": result.reject_reason,
+            "reject_detail": result.reject_detail,
+            "auto_upscaled_factor": result.auto_upscaled_factor,
+        }
+
+    # Save the prepared image and run analysis through the existing pipeline
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    prepared_filename = f"prepared_{timestamp}_{uuid.uuid4().hex[:8]}.jpg"
+    prepared_path = os.path.join(UPLOAD_DIR, prepared_filename)
+    result.image.save(prepared_path, "JPEG", quality=92)
+
+    # Analyze the prepared image
+    before, after = analyze_combined_image(result.image)
+    before_lab = (before["lab"]["L"], before["lab"]["a"], before["lab"]["b"])
+    after_lab = (after["lab"]["L"], after["lab"]["a"], after["lab"]["b"])
+    calculator = get_calculator()
+    pst_result = calculator.calculate_pst(before_lab, after_lab)
+
+    # Save half-images for the result page
+    w, h = result.image.size
+    before_img = result.image.crop((0, 0, w // 2, h))
+    after_img = result.image.crop((w // 2, 0, w, h))
+    before_filename = f"before_{timestamp}_{uuid.uuid4().hex[:8]}.jpg"
+    after_filename = f"after_{timestamp}_{uuid.uuid4().hex[:8]}.jpg"
+    before_img.save(os.path.join(UPLOAD_DIR, before_filename), "JPEG", quality=90)
+    after_img.save(os.path.join(UPLOAD_DIR, after_filename), "JPEG", quality=90)
+
+    db = get_db()
+    cursor = db.execute(
+        """INSERT INTO tests (
+            user_id, before_image_path, after_image_path,
+            before_rgb_r, before_rgb_g, before_rgb_b,
+            after_rgb_r, after_rgb_g, after_rgb_b,
+            before_lab_l, before_lab_a, before_lab_b,
+            after_lab_l, after_lab_a, after_lab_b,
+            delta_a, delta_e, delta_l,
+            pst_value, is_clean, label,
+            location, notes
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+        (
+            user_id, before_filename, after_filename,
+            before["rgb"][0], before["rgb"][1], before["rgb"][2],
+            after["rgb"][0], after["rgb"][1], after["rgb"][2],
+            before_lab[0], before_lab[1], before_lab[2],
+            after_lab[0], after_lab[1], after_lab[2],
+            pst_result["deltas"]["delta_a"], pst_result["deltas"]["delta_E"], pst_result["deltas"]["delta_L"],
+            pst_result["pst_value"], pst_result["is_clean"], pst_result["label"],
+            location or None, notes or None,
+        ),
+    )
+    db.commit()
+    test_id = cursor.lastrowid
+    db.close()
+
+    return {
+        "approved": True,
+        "test_id": test_id,
+        "pst_value": pst_result["pst_value"],
+        "is_clean": pst_result["is_clean"],
+        "label": pst_result["label"],
+        "color_class": pst_result["color_class"],
+        "before_rgb": list(before["rgb"]),
+        "after_rgb": list(after["rgb"]),
+        "before_lab": pst_result["before_lab"],
+        "after_lab": pst_result["after_lab"],
+        "deltas": pst_result["deltas"],
+        "before_image_url": f"/uploads/{before_filename}",
+        "after_image_url": f"/uploads/{after_filename}",
+        "prepared_image_url": f"/uploads/{prepared_filename}",
+        "wb_applied": result.wb_applied,
+        "wb_reference_rgb": list(result.wb_reference_rgb) if result.wb_reference_rgb else None,
+        "auto_upscaled_factor": result.auto_upscaled_factor,
         "location": location or None,
         "notes": notes or None,
         "created_at": datetime.now().isoformat(),
